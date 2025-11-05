@@ -1,0 +1,2225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<meta name="copyright" content="(C) Copyright 2025" />
+<meta name="DC.rights.owner" content="(C) Copyright 2025" />
+<meta name="generator" content="DITA-OT" /><meta name="DC.type" content="topic" />
+<meta name="DC.title" content="CharacterStyle" />
+<meta name="DC.relation" scheme="URI" content="Character.html" />
+<meta name="DC.format" content="XHTML" />
+<meta name="DC.identifier" content="d1e188134" />
+<link rel="stylesheet" type="text/css" href="commonltr.css" />
+<title>CharacterStyle</title>
+<link rel="stylesheet" type="text/css" href="styles/main.css" />
+<script type="text/javascript" src="scripts/main.js"></script>
+</head>
+<body id="d1e188134">
+
+   <h1 class="title topictitle1" id="ariaid-title1">
+      <span class="keyword">CharacterStyle</span>
+   </h1>
+
+   <div class="body">
+      <p class="p description">A character style.</p>
+
+      <p class="p quicklinks">
+         Go to <strong class="ph b">
+            <a class="xref" href="#d1e188134__iProps">Property Listing</a>
+         </strong> | <strong class="ph b">
+            <a class="xref" href="#d1e188134__iMethods">Method Listing</a>
+         </strong>
+      </p>
+
+      <div class="section"><h2 class="title sectiontitle">Methods:</h2>
+         
+         <p class="p">
+            <a class="xref" href="#d1e188134__d1e189621">extractLabel</a>,  <a class="xref" href="#d1e188134__d1e189644">getElements</a>,  <a class="xref" href="#d1e188134__d1e189656">insertLabel</a>,  <a class="xref" href="#d1e188134__d1e189684">remove</a>,  <a class="xref" href="#d1e188134__d1e189702">toSource</a>,  <a class="xref" href="#d1e188134__d1e189713">toSpecifier</a>
+         </p>
+
+      </div>
+
+      <div class="section"><h2 class="title sectiontitle">Objects:</h2>
+         
+         <p class="p">
+            <a class="xref" href="Boolean.html#d1e4783">Boolean</a>, <a class="xref" href="Capitalization.html#d1e39650">Capitalization</a>, <a class="xref" href="CharacterStyle.html#d1e188134">CharacterStyle</a>, <a class="xref" href="Font.html#d1e191990">Font</a>, <a class="xref" href="Language.html#d1e190980">Language</a>, <a class="xref" href="LanguageWithVendors.html#d1e191440">LanguageWithVendors</a>, <a class="xref" href="Leading.html#d1e39558">Leading</a>, <a class="xref" href="NothingEnum.html#d1e43981">NothingEnum</a>, <a class="xref" href="OTFFigureStyle.html#d1e39580">OTFFigureStyle</a>, <a class="xref" href="Object.html#d1e538">Object</a>, <a class="xref" href="Position.html#d1e39708">Position</a>, <a class="xref" href="String.html#d1e3790">String</a>, <a class="xref" href="StrokeStyle.html#d1e136062">StrokeStyle</a>, <a class="xref" href="Swatch.html#d1e35844">Swatch</a>, </p>
+
+      </div>
+
+      <div class="section" id="d1e188134__iProps"><h2 class="title sectiontitle">Property Listing</h2>
+         
+         
+<div class="tablenoborder"><table cellpadding="4" cellspacing="0" summary="" class="table" frame="border" border="1" rules="all"><colgroup><col style="width:20%" /><col style="width:10%" /><col style="width:10%" /><col style="width:60%" /></colgroup><thead class="thead" style="text-align:left;">
+                  <tr class="row">
+                     <th class="entry cellrowborder" style="vertical-align:top;" id="d577335e163">
+                        <p class="p">Property</p>
+
+                     </th>
+
+                     <th class="entry cellrowborder" style="vertical-align:top;" id="d577335e169">
+                        <p class="p">Type</p>
+
+                     </th>
+
+                     <th class="entry cellrowborder" style="vertical-align:top;" id="d577335e175">
+                        <p class="p">Access</p>
+
+                     </th>
+
+                     <th class="entry cellrowborder" style="vertical-align:top;" id="d577335e181">
+                        <p class="p">Description</p>
+
+                     </th>
+
+                  </tr>
+
+               </thead>
+<tbody class="tbody">
+                  <tr class="row">
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d577335e163 ">
+                        <p class="p clip_button">appliedFont</p>
+
+                     </td>
+
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d577335e169 ">
+                        <p class="p">
+                           <a class="xref" href="Font.html#d1e191990">Font</a>
+                        </p>
+
+                        <p class="p">
+                           <a class="xref" href="String.html#d1e3790">String</a>
+                        </p>
+
+                        <p class="p enumInPTable clip_button">NothingEnum.NOTHING</p>
+
+                     </td>
+
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d577335e175 ">
+                        <p class="p">read/write</p>
+
+                     </td>
+
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d577335e181 ">
+                        <p class="p description">The font applied to the CharacterStyle, specified as either a font object or the name of font family. Can return: Font, String or NothingEnum enumerator.</p>
+
+                     </td>
+
+                  </tr>
+
+                  <tr class="row">
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d577335e163 ">
+                        <p class="p clip_button">appliedLanguage</p>
+
+                     </td>
+
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d577335e169 ">
+                        <p class="p">
+                           <a class="xref" href="Language.html#d1e190980">Language</a>
+                        </p>
+
+                        <p class="p">
+                           <a class="xref" href="LanguageWithVendors.html#d1e191440">LanguageWithVendors</a>
+                        </p>
+
+                        <p class="p">NothingEnumCanalsoaccept:String</p>
+
+                     </td>
+
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d577335e175 ">
+                        <p class="p">read/write</p>
+
+                     </td>
+
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d577335e181 ">
+                        <p class="p description">The language of the text. Can return: LanguageWithVendors, Language or NothingEnum enumerator. Can also accept: String.</p>
+
+                     </td>
+
+                  </tr>
+
+                  <tr class="row">
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d577335e163 ">
+                        <p class="p clip_button">basedOn</p>
+
+                     </td>
+
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d577335e169 ">
+                        <p class="p">
+                           <a class="xref" href="CharacterStyle.html#d1e188134">CharacterStyle</a>
+                        </p>
+
+                        <p class="p">
+                           <a class="xref" href="String.html#d1e3790">String</a>
+                        </p>
+
+                        <p class="p enumInPTable clip_button">NothingEnum.NOTHING</p>
+
+                     </td>
+
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d577335e175 ">
+                        <p class="p">read/write</p>
+
+                     </td>
+
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d577335e181 ">
+                        <p class="p description">The style that this style is based on. Can return: CharacterStyle, String or NothingEnum enumerator.</p>
+
+                     </td>
+
+                  </tr>
+
+                  <tr class="row">
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d577335e163 ">
+                        <p class="p clip_button">baselineShift</p>
+
+                     </td>
+
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d577335e169 ">
+                        <p class="p">Unit</p>
+
+                        <p class="p enumInPTable clip_button">NothingEnum.NOTHING</p>
+
+                     </td>
+
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d577335e175 ">
+                        <p class="p">read/write</p>
+
+                     </td>
+
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d577335e181 ">
+                        <p class="p description">The baseline shift applied to the text. Can return: Unit or NothingEnum enumerator.</p>
+
+                     </td>
+
+                  </tr>
+
+                  <tr class="row">
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d577335e163 ">
+                        <p class="p clip_button">capitalization</p>
+
+                     </td>
+
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d577335e169 ">
+                        <p class="p">
+                           <a class="xref" href="Capitalization.html#d1e39650">Capitalization</a>
+                        </p>
+
+                        <p class="p enumInPTable clip_button">Capitalization.ALL_CAPS</p>
+
+                        <p class="p enumInPTable clip_button">Capitalization.CAP_TO_SMALL_CAP</p>
+
+                        <p class="p enumInPTable clip_button">Capitalization.NORMAL</p>
+
+                        <p class="p enumInPTable clip_button">Capitalization.SMALL_CAPS</p>
+
+                        <p class="p enumInPTable clip_button">NothingEnum.NOTHING</p>
+
+                     </td>
+
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d577335e175 ">
+                        <p class="p">read/write</p>
+
+                     </td>
+
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d577335e181 ">
+                        <p class="p description">The capitalization scheme. Can return: Capitalization enumerator or NothingEnum enumerator.</p>
+
+                     </td>
+
+                  </tr>
+
+                  <tr class="row">
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d577335e163 ">
+                        <p class="p clip_button">fillColor</p>
+
+                     </td>
+
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d577335e169 ">
+                        <p class="p">
+                           <a class="xref" href="Swatch.html#d1e35844">Swatch</a>
+                        </p>
+
+                        <p class="p">NothingEnumCanalsoaccept:String</p>
+
+                     </td>
+
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d577335e175 ">
+                        <p class="p">read/write</p>
+
+                     </td>
+
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d577335e181 ">
+                        <p class="p description">The swatch (color, gradient, tint, or mixed ink) applied to the fill of the CharacterStyle. . Can return: Swatch or NothingEnum enumerator. Can also accept: String.</p>
+
+                     </td>
+
+                  </tr>
+
+                  <tr class="row">
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d577335e163 ">
+                        <p class="p clip_button">fillTint</p>
+
+                     </td>
+
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d577335e169 ">
+                        <p class="p">Real (range 0 - 100)</p>
+
+                        <p class="p enumInPTable clip_button">NothingEnum.NOTHING</p>
+
+                     </td>
+
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d577335e175 ">
+                        <p class="p">read/write</p>
+
+                     </td>
+
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d577335e181 ">
+                        <p class="p description">The tint (as a percentage) of the fill color of the CharacterStyle. (To specify a tint percentage, use a number in the range of 0 to 100; to use the inherited or overridden value, use -1.). Can return: Real or NothingEnum enumerator.</p>
+
+                     </td>
+
+                  </tr>
+
+                  <tr class="row">
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d577335e163 ">
+                        <p class="p clip_button">fontStyle</p>
+
+                     </td>
+
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d577335e169 ">
+                        <p class="p">
+                           <a class="xref" href="String.html#d1e3790">String</a>
+                        </p>
+
+                        <p class="p enumInPTable clip_button">NothingEnum.NOTHING</p>
+
+                     </td>
+
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d577335e175 ">
+                        <p class="p">read/write</p>
+
+                     </td>
+
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d577335e181 ">
+                        <p class="p description">The name of the font style. Can return: String or NothingEnum enumerator.</p>
+
+                     </td>
+
+                  </tr>
+
+                  <tr class="row">
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d577335e163 ">
+                        <p class="p clip_button">gradientFillAngle</p>
+
+                     </td>
+
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d577335e169 ">
+                        <p class="p">Real</p>
+
+                        <p class="p enumInPTable clip_button">NothingEnum.NOTHING</p>
+
+                     </td>
+
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d577335e175 ">
+                        <p class="p">read/write</p>
+
+                     </td>
+
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d577335e181 ">
+                        <p class="p description">The angle of a linear gradient applied to the fill of the text. (Range: -180 to 180). Can return: Real or NothingEnum enumerator.</p>
+
+                     </td>
+
+                  </tr>
+
+                  <tr class="row">
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d577335e163 ">
+                        <p class="p clip_button">gradientFillLength</p>
+
+                     </td>
+
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d577335e169 ">
+                        <p class="p">Real</p>
+
+                        <p class="p enumInPTable clip_button">NothingEnum.NOTHING</p>
+
+                     </td>
+
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d577335e175 ">
+                        <p class="p">read/write</p>
+
+                     </td>
+
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d577335e181 ">
+                        <p class="p description">The length (for a linear gradient) or radius (for a radial gradient) applied to the fill of the text. Can return: Real or NothingEnum enumerator.</p>
+
+                     </td>
+
+                  </tr>
+
+                  <tr class="row">
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d577335e163 ">
+                        <p class="p clip_button">gradientFillStart</p>
+
+                     </td>
+
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d577335e169 ">
+                        <p class="p">
+                           <a class="xref" href="Array.html#d1e835">Array</a> of  2 Units</p>
+
+                        <p class="p enumInPTable clip_button">NothingEnum.NOTHING</p>
+
+                     </td>
+
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d577335e175 ">
+                        <p class="p">read/write</p>
+
+                     </td>
+
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d577335e181 ">
+                        <p class="p description">The starting point (in page coordinates) of a gradient applied to the fill of the text, in the format [x, y]. Can return: Array of 2 Units or NothingEnum enumerator.</p>
+
+                     </td>
+
+                  </tr>
+
+                  <tr class="row">
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d577335e163 ">
+                        <p class="p clip_button">gradientStrokeAngle</p>
+
+                     </td>
+
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d577335e169 ">
+                        <p class="p">Real</p>
+
+                        <p class="p enumInPTable clip_button">NothingEnum.NOTHING</p>
+
+                     </td>
+
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d577335e175 ">
+                        <p class="p">read/write</p>
+
+                     </td>
+
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d577335e181 ">
+                        <p class="p description">The angle of a linear gradient applied to the stroke of the text. (Range: -180 to 180). Can return: Real or NothingEnum enumerator.</p>
+
+                     </td>
+
+                  </tr>
+
+                  <tr class="row">
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d577335e163 ">
+                        <p class="p clip_button">gradientStrokeLength</p>
+
+                     </td>
+
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d577335e169 ">
+                        <p class="p">Real</p>
+
+                        <p class="p enumInPTable clip_button">NothingEnum.NOTHING</p>
+
+                     </td>
+
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d577335e175 ">
+                        <p class="p">read/write</p>
+
+                     </td>
+
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d577335e181 ">
+                        <p class="p description">The length (for a linear gradient) or radius (for a radial gradient) applied to the stroke of the text. Can return: Real or NothingEnum enumerator.</p>
+
+                     </td>
+
+                  </tr>
+
+                  <tr class="row">
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d577335e163 ">
+                        <p class="p clip_button">gradientStrokeStart</p>
+
+                     </td>
+
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d577335e169 ">
+                        <p class="p">
+                           <a class="xref" href="Array.html#d1e835">Array</a> of  2 Units</p>
+
+                        <p class="p enumInPTable clip_button">NothingEnum.NOTHING</p>
+
+                     </td>
+
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d577335e175 ">
+                        <p class="p">read/write</p>
+
+                     </td>
+
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d577335e181 ">
+                        <p class="p description">The starting point (in page coordinates) of a gradient applied to the stroke of the text, in the format [x, y]. Can return: Array of 2 Units or NothingEnum enumerator.</p>
+
+                     </td>
+
+                  </tr>
+
+                  <tr class="row">
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d577335e163 ">
+                        <p class="p clip_button">horizontalScale</p>
+
+                     </td>
+
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d577335e169 ">
+                        <p class="p">Real</p>
+
+                        <p class="p enumInPTable clip_button">NothingEnum.NOTHING</p>
+
+                     </td>
+
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d577335e175 ">
+                        <p class="p">read/write</p>
+
+                     </td>
+
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d577335e181 ">
+                        <p class="p description">The horizontal scaling applied to the CharacterStyle. Can return: Real or NothingEnum enumerator.</p>
+
+                     </td>
+
+                  </tr>
+
+                  <tr class="row">
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d577335e163 ">
+                        <p class="p clip_button">id</p>
+
+                     </td>
+
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d577335e169 ">
+                        <p class="p">Long</p>
+
+                        <p class="p enumInPTable clip_button">NothingEnum.NOTHING</p>
+
+                     </td>
+
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d577335e175 ">
+                        <p class="p">readonly</p>
+
+                     </td>
+
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d577335e181 ">
+                        <p class="p description">The unique ID of the CharacterStyle. Can return: Long or NothingEnum enumerator.</p>
+
+                     </td>
+
+                  </tr>
+
+                  <tr class="row">
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d577335e163 ">
+                        <p class="p clip_button">imported</p>
+
+                     </td>
+
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d577335e169 ">
+                        <p class="p">
+                           <a class="xref" href="Boolean.html#d1e4783">Boolean</a>
+                        </p>
+
+                        <p class="p enumInPTable clip_button">NothingEnum.NOTHING</p>
+
+                     </td>
+
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d577335e175 ">
+                        <p class="p">readonly</p>
+
+                     </td>
+
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d577335e181 ">
+                        <p class="p description">If true, the style was imported from another document. Can return: Boolean or NothingEnum enumerator.</p>
+
+                     </td>
+
+                  </tr>
+
+                  <tr class="row">
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d577335e163 ">
+                        <p class="p clip_button">index</p>
+
+                     </td>
+
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d577335e169 ">
+                        <p class="p">Long</p>
+
+                        <p class="p enumInPTable clip_button">NothingEnum.NOTHING</p>
+
+                     </td>
+
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d577335e175 ">
+                        <p class="p">readonly</p>
+
+                     </td>
+
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d577335e181 ">
+                        <p class="p description">The index of the CharacterStyle within its containing object. Can return: Long or NothingEnum enumerator.</p>
+
+                     </td>
+
+                  </tr>
+
+                  <tr class="row">
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d577335e163 ">
+                        <p class="p clip_button">kerningMethod</p>
+
+                     </td>
+
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d577335e169 ">
+                        <p class="p">
+                           <a class="xref" href="String.html#d1e3790">String</a>
+                        </p>
+
+                        <p class="p enumInPTable clip_button">NothingEnum.NOTHING</p>
+
+                     </td>
+
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d577335e175 ">
+                        <p class="p">read/write</p>
+
+                     </td>
+
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d577335e181 ">
+                        <p class="p description">The type of pair kerning. Can return: String or NothingEnum enumerator.</p>
+
+                     </td>
+
+                  </tr>
+
+                  <tr class="row">
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d577335e163 ">
+                        <p class="p clip_button">label</p>
+
+                     </td>
+
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d577335e169 ">
+                        <p class="p">
+                           <a class="xref" href="String.html#d1e3790">String</a>
+                        </p>
+
+                        <p class="p enumInPTable clip_button">NothingEnum.NOTHING</p>
+
+                     </td>
+
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d577335e175 ">
+                        <p class="p">read/write</p>
+
+                     </td>
+
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d577335e181 ">
+                        <p class="p description">A property that can be set to any string. Can return: String or NothingEnum enumerator.</p>
+
+                     </td>
+
+                  </tr>
+
+                  <tr class="row">
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d577335e163 ">
+                        <p class="p clip_button">leading</p>
+
+                     </td>
+
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d577335e169 ">
+                        <p class="p">
+                           <a class="xref" href="Leading.html#d1e39558">Leading</a>
+                        </p>
+
+                        <p class="p enumInPTable clip_button">Leading.AUTO</p>
+
+                        <p class="p">Unit</p>
+
+                        <p class="p enumInPTable clip_button">NothingEnum.NOTHING</p>
+
+                     </td>
+
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d577335e175 ">
+                        <p class="p">read/write</p>
+
+                     </td>
+
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d577335e181 ">
+                        <p class="p description">The leading applied to the text. Can return: Unit, Leading enumerator or NothingEnum enumerator.</p>
+
+                     </td>
+
+                  </tr>
+
+                  <tr class="row">
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d577335e163 ">
+                        <p class="p clip_button">ligatures</p>
+
+                     </td>
+
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d577335e169 ">
+                        <p class="p">
+                           <a class="xref" href="Boolean.html#d1e4783">Boolean</a>
+                        </p>
+
+                        <p class="p enumInPTable clip_button">NothingEnum.NOTHING</p>
+
+                     </td>
+
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d577335e175 ">
+                        <p class="p">read/write</p>
+
+                     </td>
+
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d577335e181 ">
+                        <p class="p description">If true, replaces specific character combinations (e.g., fl, fi) with ligature characters. Can return: Boolean or NothingEnum enumerator.</p>
+
+                     </td>
+
+                  </tr>
+
+                  <tr class="row">
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d577335e163 ">
+                        <p class="p clip_button">name</p>
+
+                     </td>
+
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d577335e169 ">
+                        <p class="p">
+                           <a class="xref" href="String.html#d1e3790">String</a>
+                        </p>
+
+                        <p class="p enumInPTable clip_button">NothingEnum.NOTHING</p>
+
+                     </td>
+
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d577335e175 ">
+                        <p class="p">read/write</p>
+
+                     </td>
+
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d577335e181 ">
+                        <p class="p description">The name of the CharacterStyle. Can return: String or NothingEnum enumerator.</p>
+
+                     </td>
+
+                  </tr>
+
+                  <tr class="row">
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d577335e163 ">
+                        <p class="p clip_button">noBreak</p>
+
+                     </td>
+
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d577335e169 ">
+                        <p class="p">
+                           <a class="xref" href="Boolean.html#d1e4783">Boolean</a>
+                        </p>
+
+                        <p class="p enumInPTable clip_button">NothingEnum.NOTHING</p>
+
+                     </td>
+
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d577335e175 ">
+                        <p class="p">read/write</p>
+
+                     </td>
+
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d577335e181 ">
+                        <p class="p description">If true, keeps the text on the same line. . Can return: Boolean or NothingEnum enumerator.</p>
+
+                     </td>
+
+                  </tr>
+
+                  <tr class="row">
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d577335e163 ">
+                        <p class="p clip_button">otfContextualAlternate</p>
+
+                     </td>
+
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d577335e169 ">
+                        <p class="p">
+                           <a class="xref" href="Boolean.html#d1e4783">Boolean</a>
+                        </p>
+
+                        <p class="p enumInPTable clip_button">NothingEnum.NOTHING</p>
+
+                     </td>
+
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d577335e175 ">
+                        <p class="p">read/write</p>
+
+                     </td>
+
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d577335e181 ">
+                        <p class="p description">If true, uses contextual alternate forms in OpenType fonts. Can return: Boolean or NothingEnum enumerator.</p>
+
+                     </td>
+
+                  </tr>
+
+                  <tr class="row">
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d577335e163 ">
+                        <p class="p clip_button">otfDiscretionaryLigature</p>
+
+                     </td>
+
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d577335e169 ">
+                        <p class="p">
+                           <a class="xref" href="Boolean.html#d1e4783">Boolean</a>
+                        </p>
+
+                        <p class="p enumInPTable clip_button">NothingEnum.NOTHING</p>
+
+                     </td>
+
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d577335e175 ">
+                        <p class="p">read/write</p>
+
+                     </td>
+
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d577335e181 ">
+                        <p class="p description">If true, uses discretionary ligatures in OpenType fonts. Can return: Boolean or NothingEnum enumerator.</p>
+
+                     </td>
+
+                  </tr>
+
+                  <tr class="row">
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d577335e163 ">
+                        <p class="p clip_button">otfFigureStyle</p>
+
+                     </td>
+
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d577335e169 ">
+                        <p class="p">
+                           <a class="xref" href="OTFFigureStyle.html#d1e39580">OTFFigureStyle</a>
+                        </p>
+
+                        <p class="p enumInPTable clip_button">OTFFigureStyle.DEFAULT_VALUE</p>
+
+                        <p class="p enumInPTable clip_button">OTFFigureStyle.PROPORTIONAL_LINING</p>
+
+                        <p class="p enumInPTable clip_button">OTFFigureStyle.PROPORTIONAL_OLDSTYLE</p>
+
+                        <p class="p enumInPTable clip_button">OTFFigureStyle.TABULAR_LINING</p>
+
+                        <p class="p enumInPTable clip_button">OTFFigureStyle.TABULAR_OLDSTYLE</p>
+
+                        <p class="p enumInPTable clip_button">NothingEnum.NOTHING</p>
+
+                     </td>
+
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d577335e175 ">
+                        <p class="p">read/write</p>
+
+                     </td>
+
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d577335e181 ">
+                        <p class="p description">The figure style in OpenType fonts. Can return: OTFFigureStyle enumerator or NothingEnum enumerator.</p>
+
+                     </td>
+
+                  </tr>
+
+                  <tr class="row">
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d577335e163 ">
+                        <p class="p clip_button">otfFraction</p>
+
+                     </td>
+
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d577335e169 ">
+                        <p class="p">
+                           <a class="xref" href="Boolean.html#d1e4783">Boolean</a>
+                        </p>
+
+                        <p class="p enumInPTable clip_button">NothingEnum.NOTHING</p>
+
+                     </td>
+
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d577335e175 ">
+                        <p class="p">read/write</p>
+
+                     </td>
+
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d577335e181 ">
+                        <p class="p description">If true, uses fractions in OpenType fonts. Can return: Boolean or NothingEnum enumerator.</p>
+
+                     </td>
+
+                  </tr>
+
+                  <tr class="row">
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d577335e163 ">
+                        <p class="p clip_button">otfHistorical</p>
+
+                     </td>
+
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d577335e169 ">
+                        <p class="p">
+                           <a class="xref" href="Boolean.html#d1e4783">Boolean</a>
+                        </p>
+
+                        <p class="p enumInPTable clip_button">NothingEnum.NOTHING</p>
+
+                     </td>
+
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d577335e175 ">
+                        <p class="p">read/write</p>
+
+                     </td>
+
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d577335e181 ">
+                        <p class="p description">If true, use historical forms in OpenType fonts. Can return: Boolean or NothingEnum enumerator.</p>
+
+                     </td>
+
+                  </tr>
+
+                  <tr class="row">
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d577335e163 ">
+                        <p class="p clip_button">otfOrdinal</p>
+
+                     </td>
+
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d577335e169 ">
+                        <p class="p">
+                           <a class="xref" href="Boolean.html#d1e4783">Boolean</a>
+                        </p>
+
+                        <p class="p enumInPTable clip_button">NothingEnum.NOTHING</p>
+
+                     </td>
+
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d577335e175 ">
+                        <p class="p">read/write</p>
+
+                     </td>
+
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d577335e181 ">
+                        <p class="p description">If true, uses ordinals in OpenType fonts. Can return: Boolean or NothingEnum enumerator.</p>
+
+                     </td>
+
+                  </tr>
+
+                  <tr class="row">
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d577335e163 ">
+                        <p class="p clip_button">otfSlashedZero</p>
+
+                     </td>
+
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d577335e169 ">
+                        <p class="p">
+                           <a class="xref" href="Boolean.html#d1e4783">Boolean</a>
+                        </p>
+
+                        <p class="p enumInPTable clip_button">NothingEnum.NOTHING</p>
+
+                     </td>
+
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d577335e175 ">
+                        <p class="p">read/write</p>
+
+                     </td>
+
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d577335e181 ">
+                        <p class="p description">If true, use a slashed zeroes in OpenType fonts. Can return: Boolean or NothingEnum enumerator.</p>
+
+                     </td>
+
+                  </tr>
+
+                  <tr class="row">
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d577335e163 ">
+                        <p class="p clip_button">otfStylisticSets</p>
+
+                     </td>
+
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d577335e169 ">
+                        <p class="p">Long</p>
+
+                        <p class="p enumInPTable clip_button">NothingEnum.NOTHING</p>
+
+                     </td>
+
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d577335e175 ">
+                        <p class="p">read/write</p>
+
+                     </td>
+
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d577335e181 ">
+                        <p class="p description">The stylistic sets to use in OpenType fonts. Can return: Long or NothingEnum enumerator.</p>
+
+                     </td>
+
+                  </tr>
+
+                  <tr class="row">
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d577335e163 ">
+                        <p class="p clip_button">otfSwash</p>
+
+                     </td>
+
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d577335e169 ">
+                        <p class="p">
+                           <a class="xref" href="Boolean.html#d1e4783">Boolean</a>
+                        </p>
+
+                        <p class="p enumInPTable clip_button">NothingEnum.NOTHING</p>
+
+                     </td>
+
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d577335e175 ">
+                        <p class="p">read/write</p>
+
+                     </td>
+
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d577335e181 ">
+                        <p class="p description">If true, uses swash forms in OpenType fonts. Can return: Boolean or NothingEnum enumerator.</p>
+
+                     </td>
+
+                  </tr>
+
+                  <tr class="row">
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d577335e163 ">
+                        <p class="p clip_button">otfTitling</p>
+
+                     </td>
+
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d577335e169 ">
+                        <p class="p">
+                           <a class="xref" href="Boolean.html#d1e4783">Boolean</a>
+                        </p>
+
+                        <p class="p enumInPTable clip_button">NothingEnum.NOTHING</p>
+
+                     </td>
+
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d577335e175 ">
+                        <p class="p">read/write</p>
+
+                     </td>
+
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d577335e181 ">
+                        <p class="p description">If true, uses titling forms in OpenType fonts. Can return: Boolean or NothingEnum enumerator.</p>
+
+                     </td>
+
+                  </tr>
+
+                  <tr class="row">
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d577335e163 ">
+                        <p class="p clip_button">overprintFill</p>
+
+                     </td>
+
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d577335e169 ">
+                        <p class="p">
+                           <a class="xref" href="Boolean.html#d1e4783">Boolean</a>
+                        </p>
+
+                        <p class="p enumInPTable clip_button">NothingEnum.NOTHING</p>
+
+                     </td>
+
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d577335e175 ">
+                        <p class="p">read/write</p>
+
+                     </td>
+
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d577335e181 ">
+                        <p class="p description">If true, the fill color of the characters will overprint. Can return: Boolean or NothingEnum enumerator.</p>
+
+                     </td>
+
+                  </tr>
+
+                  <tr class="row">
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d577335e163 ">
+                        <p class="p clip_button">overprintStroke</p>
+
+                     </td>
+
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d577335e169 ">
+                        <p class="p">
+                           <a class="xref" href="Boolean.html#d1e4783">Boolean</a>
+                        </p>
+
+                        <p class="p enumInPTable clip_button">NothingEnum.NOTHING</p>
+
+                     </td>
+
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d577335e175 ">
+                        <p class="p">read/write</p>
+
+                     </td>
+
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d577335e181 ">
+                        <p class="p description">If true, the stroke of the characters will overprint. Can return: Boolean or NothingEnum enumerator.</p>
+
+                     </td>
+
+                  </tr>
+
+                  <tr class="row">
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d577335e163 ">
+                        <p class="p clip_button">parent</p>
+
+                     </td>
+
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d577335e169 ">
+                        <p class="p">
+                           <a class="xref" href="Application.html#d1e24410">Application</a>
+                        </p>
+
+                        <p class="p">
+                           <a class="xref" href="Document.html#d1e26379">Document</a>
+                        </p>
+
+                     </td>
+
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d577335e175 ">
+                        <p class="p">readonly</p>
+
+                     </td>
+
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d577335e181 ">
+                        <p class="p description">The parent of the CharacterStyle (a Document or Application).</p>
+
+                     </td>
+
+                  </tr>
+
+                  <tr class="row">
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d577335e163 ">
+                        <p class="p clip_button">pointSize</p>
+
+                     </td>
+
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d577335e169 ">
+                        <p class="p">Unit</p>
+
+                        <p class="p enumInPTable clip_button">NothingEnum.NOTHING</p>
+
+                     </td>
+
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d577335e175 ">
+                        <p class="p">read/write</p>
+
+                     </td>
+
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d577335e181 ">
+                        <p class="p description">The text size. Can return: Unit or NothingEnum enumerator.</p>
+
+                     </td>
+
+                  </tr>
+
+                  <tr class="row">
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d577335e163 ">
+                        <p class="p clip_button">position</p>
+
+                     </td>
+
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d577335e169 ">
+                        <p class="p">
+                           <a class="xref" href="Position.html#d1e39708">Position</a>
+                        </p>
+
+                        <p class="p enumInPTable clip_button">Position.NORMAL</p>
+
+                        <p class="p enumInPTable clip_button">Position.OT_DENOMINATOR</p>
+
+                        <p class="p enumInPTable clip_button">Position.OT_NUMERATOR</p>
+
+                        <p class="p enumInPTable clip_button">Position.OT_SUBSCRIPT</p>
+
+                        <p class="p enumInPTable clip_button">Position.OT_SUPERSCRIPT</p>
+
+                        <p class="p enumInPTable clip_button">Position.SUBSCRIPT</p>
+
+                        <p class="p enumInPTable clip_button">Position.SUPERSCRIPT</p>
+
+                        <p class="p enumInPTable clip_button">NothingEnum.NOTHING</p>
+
+                     </td>
+
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d577335e175 ">
+                        <p class="p">read/write</p>
+
+                     </td>
+
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d577335e181 ">
+                        <p class="p description">The text position relative to the baseline. Can return: Position enumerator or NothingEnum enumerator.</p>
+
+                     </td>
+
+                  </tr>
+
+                  <tr class="row">
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d577335e163 ">
+                        <p class="p clip_button">properties</p>
+
+                     </td>
+
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d577335e169 ">
+                        <p class="p">
+                           <a class="xref" href="Object.html#d1e538">Object</a>
+                        </p>
+
+                     </td>
+
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d577335e175 ">
+                        <p class="p">read/write</p>
+
+                     </td>
+
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d577335e181 ">
+                        <p class="p description">A property that allows setting of several properties at the same time.</p>
+
+                     </td>
+
+                  </tr>
+
+                  <tr class="row">
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d577335e163 ">
+                        <p class="p clip_button">skew</p>
+
+                     </td>
+
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d577335e169 ">
+                        <p class="p">Real</p>
+
+                        <p class="p enumInPTable clip_button">NothingEnum.NOTHING</p>
+
+                     </td>
+
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d577335e175 ">
+                        <p class="p">read/write</p>
+
+                     </td>
+
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d577335e181 ">
+                        <p class="p description">The skew angle of the CharacterStyle. Can return: Real or NothingEnum enumerator.</p>
+
+                     </td>
+
+                  </tr>
+
+                  <tr class="row">
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d577335e163 ">
+                        <p class="p clip_button">strikeThroughColor</p>
+
+                     </td>
+
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d577335e169 ">
+                        <p class="p">
+                           <a class="xref" href="String.html#d1e3790">String</a>
+                        </p>
+
+                        <p class="p">
+                           <a class="xref" href="Swatch.html#d1e35844">Swatch</a>
+                        </p>
+
+                        <p class="p enumInPTable clip_button">NothingEnum.NOTHING</p>
+
+                     </td>
+
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d577335e175 ">
+                        <p class="p">read/write</p>
+
+                     </td>
+
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d577335e181 ">
+                        <p class="p description">The swatch (color, gradient, tint, or mixed ink) applied to the strikethrough stroke. Can return: Swatch, String or NothingEnum enumerator.</p>
+
+                     </td>
+
+                  </tr>
+
+                  <tr class="row">
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d577335e163 ">
+                        <p class="p clip_button">strikeThroughGapColor</p>
+
+                     </td>
+
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d577335e169 ">
+                        <p class="p">
+                           <a class="xref" href="String.html#d1e3790">String</a>
+                        </p>
+
+                        <p class="p">
+                           <a class="xref" href="Swatch.html#d1e35844">Swatch</a>
+                        </p>
+
+                        <p class="p enumInPTable clip_button">NothingEnum.NOTHING</p>
+
+                     </td>
+
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d577335e175 ">
+                        <p class="p">read/write</p>
+
+                     </td>
+
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d577335e181 ">
+                        <p class="p description">The swatch (color, gradient, tint, or mixed ink) applied to the gap of the strikethrough stroke. Can return: Swatch, String or NothingEnum enumerator.</p>
+
+                     </td>
+
+                  </tr>
+
+                  <tr class="row">
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d577335e163 ">
+                        <p class="p clip_button">strikeThroughGapOverprint</p>
+
+                     </td>
+
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d577335e169 ">
+                        <p class="p">
+                           <a class="xref" href="Boolean.html#d1e4783">Boolean</a>
+                        </p>
+
+                        <p class="p enumInPTable clip_button">NothingEnum.NOTHING</p>
+
+                     </td>
+
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d577335e175 ">
+                        <p class="p">read/write</p>
+
+                     </td>
+
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d577335e181 ">
+                        <p class="p description">If true, the gap color of the strikethrough stroke will overprint. Note: Valid when strike through type is not solid. Can return: Boolean or NothingEnum enumerator.</p>
+
+                     </td>
+
+                  </tr>
+
+                  <tr class="row">
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d577335e163 ">
+                        <p class="p clip_button">strikeThroughGapTint</p>
+
+                     </td>
+
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d577335e169 ">
+                        <p class="p">Real (range 0 - 100)</p>
+
+                        <p class="p enumInPTable clip_button">NothingEnum.NOTHING</p>
+
+                     </td>
+
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d577335e175 ">
+                        <p class="p">read/write</p>
+
+                     </td>
+
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d577335e181 ">
+                        <p class="p description">The tint (as a percentage) of the strikethrough stroke gap color. (Range: 0 to 100) Note: Valid when strike through type is not solid. Can return: Real or NothingEnum enumerator.</p>
+
+                     </td>
+
+                  </tr>
+
+                  <tr class="row">
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d577335e163 ">
+                        <p class="p clip_button">strikeThroughOffset</p>
+
+                     </td>
+
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d577335e169 ">
+                        <p class="p">Unit</p>
+
+                        <p class="p enumInPTable clip_button">NothingEnum.NOTHING</p>
+
+                     </td>
+
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d577335e175 ">
+                        <p class="p">read/write</p>
+
+                     </td>
+
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d577335e181 ">
+                        <p class="p description">The amount by which to offset the strikethrough stroke from the text baseline. Can return: Unit or NothingEnum enumerator.</p>
+
+                     </td>
+
+                  </tr>
+
+                  <tr class="row">
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d577335e163 ">
+                        <p class="p clip_button">strikeThroughOverprint</p>
+
+                     </td>
+
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d577335e169 ">
+                        <p class="p">
+                           <a class="xref" href="Boolean.html#d1e4783">Boolean</a>
+                        </p>
+
+                        <p class="p enumInPTable clip_button">NothingEnum.NOTHING</p>
+
+                     </td>
+
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d577335e175 ">
+                        <p class="p">read/write</p>
+
+                     </td>
+
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d577335e181 ">
+                        <p class="p description">If true, the strikethrough stroke will overprint. Can return: Boolean or NothingEnum enumerator.</p>
+
+                     </td>
+
+                  </tr>
+
+                  <tr class="row">
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d577335e163 ">
+                        <p class="p clip_button">strikeThroughTint</p>
+
+                     </td>
+
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d577335e169 ">
+                        <p class="p">Real (range 0 - 100)</p>
+
+                        <p class="p enumInPTable clip_button">NothingEnum.NOTHING</p>
+
+                     </td>
+
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d577335e175 ">
+                        <p class="p">read/write</p>
+
+                     </td>
+
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d577335e181 ">
+                        <p class="p description">The tint (as a percentage) of the strikethrough stroke. (Range: 0 to 100). Can return: Real or NothingEnum enumerator.</p>
+
+                     </td>
+
+                  </tr>
+
+                  <tr class="row">
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d577335e163 ">
+                        <p class="p clip_button">strikeThroughType</p>
+
+                     </td>
+
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d577335e169 ">
+                        <p class="p">
+                           <a class="xref" href="String.html#d1e3790">String</a>
+                        </p>
+
+                        <p class="p">
+                           <a class="xref" href="StrokeStyle.html#d1e136062">StrokeStyle</a>
+                        </p>
+
+                        <p class="p enumInPTable clip_button">NothingEnum.NOTHING</p>
+
+                     </td>
+
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d577335e175 ">
+                        <p class="p">read/write</p>
+
+                     </td>
+
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d577335e181 ">
+                        <p class="p description">The stroke type of the strikethrough stroke. Can return: StrokeStyle, String or NothingEnum enumerator.</p>
+
+                     </td>
+
+                  </tr>
+
+                  <tr class="row">
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d577335e163 ">
+                        <p class="p clip_button">strikeThroughWeight</p>
+
+                     </td>
+
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d577335e169 ">
+                        <p class="p">Unit</p>
+
+                        <p class="p enumInPTable clip_button">NothingEnum.NOTHING</p>
+
+                     </td>
+
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d577335e175 ">
+                        <p class="p">read/write</p>
+
+                     </td>
+
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d577335e181 ">
+                        <p class="p description">The stroke weight of the strikethrough stroke. Can return: Unit or NothingEnum enumerator.</p>
+
+                     </td>
+
+                  </tr>
+
+                  <tr class="row">
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d577335e163 ">
+                        <p class="p clip_button">strikeThru</p>
+
+                     </td>
+
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d577335e169 ">
+                        <p class="p">
+                           <a class="xref" href="Boolean.html#d1e4783">Boolean</a>
+                        </p>
+
+                        <p class="p enumInPTable clip_button">NothingEnum.NOTHING</p>
+
+                     </td>
+
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d577335e175 ">
+                        <p class="p">read/write</p>
+
+                     </td>
+
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d577335e181 ">
+                        <p class="p description">If true, draws a strikethrough line through the text. Can return: Boolean or NothingEnum enumerator.</p>
+
+                     </td>
+
+                  </tr>
+
+                  <tr class="row">
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d577335e163 ">
+                        <p class="p clip_button">strokeColor</p>
+
+                     </td>
+
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d577335e169 ">
+                        <p class="p">
+                           <a class="xref" href="Swatch.html#d1e35844">Swatch</a>
+                        </p>
+
+                        <p class="p">NothingEnumCanalsoaccept:String</p>
+
+                     </td>
+
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d577335e175 ">
+                        <p class="p">read/write</p>
+
+                     </td>
+
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d577335e181 ">
+                        <p class="p description">The swatch (color, gradient, tint, or mixed ink) applied to the stroke of the CharacterStyle. Can return: Swatch or NothingEnum enumerator. Can also accept: String.</p>
+
+                     </td>
+
+                  </tr>
+
+                  <tr class="row">
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d577335e163 ">
+                        <p class="p clip_button">strokeTint</p>
+
+                     </td>
+
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d577335e169 ">
+                        <p class="p">Real (range 0 - 100)</p>
+
+                        <p class="p enumInPTable clip_button">NothingEnum.NOTHING</p>
+
+                     </td>
+
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d577335e175 ">
+                        <p class="p">read/write</p>
+
+                     </td>
+
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d577335e181 ">
+                        <p class="p description">The tint (as a percentage) of the stroke color of the CharacterStyle. (To specify a tint percentage, use a number in the range of 0 to 100; to use the inherited or overridden value, use -1.). Can return: Real or NothingEnum enumerator.</p>
+
+                     </td>
+
+                  </tr>
+
+                  <tr class="row">
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d577335e163 ">
+                        <p class="p clip_button">strokeWeight</p>
+
+                     </td>
+
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d577335e169 ">
+                        <p class="p">Unit</p>
+
+                        <p class="p enumInPTable clip_button">NothingEnum.NOTHING</p>
+
+                     </td>
+
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d577335e175 ">
+                        <p class="p">read/write</p>
+
+                     </td>
+
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d577335e181 ">
+                        <p class="p description">The stroke weight applied to the characters of the text. Can return: Unit or NothingEnum enumerator.</p>
+
+                     </td>
+
+                  </tr>
+
+                  <tr class="row">
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d577335e163 ">
+                        <p class="p clip_button">tracking</p>
+
+                     </td>
+
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d577335e169 ">
+                        <p class="p">Real</p>
+
+                        <p class="p enumInPTable clip_button">NothingEnum.NOTHING</p>
+
+                     </td>
+
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d577335e175 ">
+                        <p class="p">read/write</p>
+
+                     </td>
+
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d577335e181 ">
+                        <p class="p description">The amount by which to loosen or tighten a block of text, specified in thousands of an em. Can return: Real or NothingEnum enumerator.</p>
+
+                     </td>
+
+                  </tr>
+
+                  <tr class="row">
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d577335e163 ">
+                        <p class="p clip_button">underline</p>
+
+                     </td>
+
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d577335e169 ">
+                        <p class="p">
+                           <a class="xref" href="Boolean.html#d1e4783">Boolean</a>
+                        </p>
+
+                        <p class="p enumInPTable clip_button">NothingEnum.NOTHING</p>
+
+                     </td>
+
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d577335e175 ">
+                        <p class="p">read/write</p>
+
+                     </td>
+
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d577335e181 ">
+                        <p class="p description">If true, underlines the text. Can return: Boolean or NothingEnum enumerator.</p>
+
+                     </td>
+
+                  </tr>
+
+                  <tr class="row">
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d577335e163 ">
+                        <p class="p clip_button">underlineColor</p>
+
+                     </td>
+
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d577335e169 ">
+                        <p class="p">
+                           <a class="xref" href="String.html#d1e3790">String</a>
+                        </p>
+
+                        <p class="p">
+                           <a class="xref" href="Swatch.html#d1e35844">Swatch</a>
+                        </p>
+
+                        <p class="p enumInPTable clip_button">NothingEnum.NOTHING</p>
+
+                     </td>
+
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d577335e175 ">
+                        <p class="p">read/write</p>
+
+                     </td>
+
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d577335e181 ">
+                        <p class="p description">The swatch (color, gradient, tint, or mixed ink) applied to the underline stroke. . Can return: Swatch, String or NothingEnum enumerator.</p>
+
+                     </td>
+
+                  </tr>
+
+                  <tr class="row">
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d577335e163 ">
+                        <p class="p clip_button">underlineGapColor</p>
+
+                     </td>
+
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d577335e169 ">
+                        <p class="p">
+                           <a class="xref" href="String.html#d1e3790">String</a>
+                        </p>
+
+                        <p class="p">
+                           <a class="xref" href="Swatch.html#d1e35844">Swatch</a>
+                        </p>
+
+                        <p class="p enumInPTable clip_button">NothingEnum.NOTHING</p>
+
+                     </td>
+
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d577335e175 ">
+                        <p class="p">read/write</p>
+
+                     </td>
+
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d577335e181 ">
+                        <p class="p description">The swatch (color, gradient, tint, or mixed ink) applied to the gap of the underline stroke. Note: Valid when underline type is not solid. Can return: Swatch, String or NothingEnum enumerator.</p>
+
+                     </td>
+
+                  </tr>
+
+                  <tr class="row">
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d577335e163 ">
+                        <p class="p clip_button">underlineGapOverprint</p>
+
+                     </td>
+
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d577335e169 ">
+                        <p class="p">
+                           <a class="xref" href="Boolean.html#d1e4783">Boolean</a>
+                        </p>
+
+                        <p class="p enumInPTable clip_button">NothingEnum.NOTHING</p>
+
+                     </td>
+
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d577335e175 ">
+                        <p class="p">read/write</p>
+
+                     </td>
+
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d577335e181 ">
+                        <p class="p description">If true, the gap color of the underline stroke will overprint. Can return: Boolean or NothingEnum enumerator.</p>
+
+                     </td>
+
+                  </tr>
+
+                  <tr class="row">
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d577335e163 ">
+                        <p class="p clip_button">underlineGapTint</p>
+
+                     </td>
+
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d577335e169 ">
+                        <p class="p">Real (range 0 - 100)</p>
+
+                        <p class="p enumInPTable clip_button">NothingEnum.NOTHING</p>
+
+                     </td>
+
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d577335e175 ">
+                        <p class="p">read/write</p>
+
+                     </td>
+
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d577335e181 ">
+                        <p class="p description">The tint (as a percentage) of the gap color of the underline stroke. (Range: 0 to 100) Note: Valid when underline type is not solid. Can return: Real or NothingEnum enumerator.</p>
+
+                     </td>
+
+                  </tr>
+
+                  <tr class="row">
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d577335e163 ">
+                        <p class="p clip_button">underlineOffset</p>
+
+                     </td>
+
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d577335e169 ">
+                        <p class="p">Unit</p>
+
+                        <p class="p enumInPTable clip_button">NothingEnum.NOTHING</p>
+
+                     </td>
+
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d577335e175 ">
+                        <p class="p">read/write</p>
+
+                     </td>
+
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d577335e181 ">
+                        <p class="p description">The amount by which to offset the underline from the text baseline. Can return: Unit or NothingEnum enumerator.</p>
+
+                     </td>
+
+                  </tr>
+
+                  <tr class="row">
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d577335e163 ">
+                        <p class="p clip_button">underlineOverprint</p>
+
+                     </td>
+
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d577335e169 ">
+                        <p class="p">
+                           <a class="xref" href="Boolean.html#d1e4783">Boolean</a>
+                        </p>
+
+                        <p class="p enumInPTable clip_button">NothingEnum.NOTHING</p>
+
+                     </td>
+
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d577335e175 ">
+                        <p class="p">read/write</p>
+
+                     </td>
+
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d577335e181 ">
+                        <p class="p description">If true, the underline stroke color will overprint. Can return: Boolean or NothingEnum enumerator.</p>
+
+                     </td>
+
+                  </tr>
+
+                  <tr class="row">
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d577335e163 ">
+                        <p class="p clip_button">underlineTint</p>
+
+                     </td>
+
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d577335e169 ">
+                        <p class="p">Real (range 0 - 100)</p>
+
+                        <p class="p enumInPTable clip_button">NothingEnum.NOTHING</p>
+
+                     </td>
+
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d577335e175 ">
+                        <p class="p">read/write</p>
+
+                     </td>
+
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d577335e181 ">
+                        <p class="p description">The underline stroke tint (as a percentage). (Range: 0 to 100). Can return: Real or NothingEnum enumerator.</p>
+
+                     </td>
+
+                  </tr>
+
+                  <tr class="row">
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d577335e163 ">
+                        <p class="p clip_button">underlineType</p>
+
+                     </td>
+
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d577335e169 ">
+                        <p class="p">
+                           <a class="xref" href="String.html#d1e3790">String</a>
+                        </p>
+
+                        <p class="p">
+                           <a class="xref" href="StrokeStyle.html#d1e136062">StrokeStyle</a>
+                        </p>
+
+                        <p class="p enumInPTable clip_button">NothingEnum.NOTHING</p>
+
+                     </td>
+
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d577335e175 ">
+                        <p class="p">read/write</p>
+
+                     </td>
+
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d577335e181 ">
+                        <p class="p description">The stroke type of the underline stroke. Can return: StrokeStyle, String or NothingEnum enumerator.</p>
+
+                     </td>
+
+                  </tr>
+
+                  <tr class="row">
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d577335e163 ">
+                        <p class="p clip_button">underlineWeight</p>
+
+                     </td>
+
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d577335e169 ">
+                        <p class="p">Unit</p>
+
+                        <p class="p enumInPTable clip_button">NothingEnum.NOTHING</p>
+
+                     </td>
+
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d577335e175 ">
+                        <p class="p">read/write</p>
+
+                     </td>
+
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d577335e181 ">
+                        <p class="p description">The stroke weight of the underline stroke. Can return: Unit or NothingEnum enumerator.</p>
+
+                     </td>
+
+                  </tr>
+
+                  <tr class="row">
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d577335e163 ">
+                        <p class="p clip_button">verticalScale</p>
+
+                     </td>
+
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d577335e169 ">
+                        <p class="p">Real</p>
+
+                        <p class="p enumInPTable clip_button">NothingEnum.NOTHING</p>
+
+                     </td>
+
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d577335e175 ">
+                        <p class="p">read/write</p>
+
+                     </td>
+
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d577335e181 ">
+                        <p class="p description">The vertical scaling applied to the CharacterStyle. Can return: Real or NothingEnum enumerator.</p>
+
+                     </td>
+
+                  </tr>
+
+               </tbody>
+</table>
+</div>
+
+      </div>
+
+      <div class="section" id="d1e188134__iMethods"><h2 class="title sectiontitle">Method Listing</h2>
+         
+         <p class="p methodName" id="d1e188134__d1e189621">
+            <a class="xref" href="String.html#d1e3790">String</a>
+            <strong class="ph b clip_button">extractLabel</strong> (key:<em class="ph i">String</em>)</p>
+
+         <p class="p description">Gets the label value associated with the specified key.</p>
+
+         
+<div class="tablenoborder"><table cellpadding="4" cellspacing="0" summary="" class="table parameterTable" frame="border" border="1" rules="all"><colgroup><col style="width:30%" /><col style="width:10%" /><col style="width:60%" /></colgroup><thead class="thead" style="text-align:left;">
+                  <tr class="row">
+                     <th class="entry cellrowborder" style="vertical-align:top;" id="d577335e2512">
+                        <p class="p">Parameter</p>
+
+                     </th>
+
+                     <th class="entry cellrowborder" style="vertical-align:top;" id="d577335e2518">
+                        <p class="p">Type</p>
+
+                     </th>
+
+                     <th class="entry cellrowborder" style="vertical-align:top;" id="d577335e2524">
+                        <p class="p">Description</p>
+
+                     </th>
+
+                  </tr>
+
+               </thead>
+<tbody class="tbody">
+                  <tr class="row">
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d577335e2512 ">
+                        <p class="p">key</p>
+
+                     </td>
+
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d577335e2518 ">
+                        <p class="p">
+                           <a class="xref" href="String.html#d1e3790">String</a>
+                        </p>
+
+                     </td>
+
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d577335e2524 ">
+                        <p class="p description">The key.</p>
+
+                     </td>
+
+                  </tr>
+
+               </tbody>
+</table>
+</div>
+
+         <p class="p methodName" id="d1e188134__d1e189644">
+            <a class="xref" href="Object.html#d1e538">Object</a>
+            <strong class="ph b clip_button">getElements</strong> ()</p>
+
+         <p class="p description">Resolves the object specifier, creating an array of object references.</p>
+
+         <p class="p methodName" id="d1e188134__d1e189656">undefined <strong class="ph b clip_button">insertLabel</strong> (key:<em class="ph i">String</em>, value:<em class="ph i">String</em>)</p>
+
+         <p class="p description">Sets the label to the value associated with the specified key.</p>
+
+         
+<div class="tablenoborder"><table cellpadding="4" cellspacing="0" summary="" class="table parameterTable" frame="border" border="1" rules="all"><colgroup><col style="width:30%" /><col style="width:10%" /><col style="width:60%" /></colgroup><thead class="thead" style="text-align:left;">
+                  <tr class="row">
+                     <th class="entry cellrowborder" style="vertical-align:top;" id="d577335e2605">
+                        <p class="p">Parameter</p>
+
+                     </th>
+
+                     <th class="entry cellrowborder" style="vertical-align:top;" id="d577335e2611">
+                        <p class="p">Type</p>
+
+                     </th>
+
+                     <th class="entry cellrowborder" style="vertical-align:top;" id="d577335e2617">
+                        <p class="p">Description</p>
+
+                     </th>
+
+                  </tr>
+
+               </thead>
+<tbody class="tbody">
+                  <tr class="row">
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d577335e2605 ">
+                        <p class="p">key</p>
+
+                     </td>
+
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d577335e2611 ">
+                        <p class="p">
+                           <a class="xref" href="String.html#d1e3790">String</a>
+                        </p>
+
+                     </td>
+
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d577335e2617 ">
+                        <p class="p description">The key.</p>
+
+                     </td>
+
+                  </tr>
+
+                  <tr class="row">
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d577335e2605 ">
+                        <p class="p">value</p>
+
+                     </td>
+
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d577335e2611 ">
+                        <p class="p">
+                           <a class="xref" href="String.html#d1e3790">String</a>
+                        </p>
+
+                     </td>
+
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d577335e2617 ">
+                        <p class="p description">The value.</p>
+
+                     </td>
+
+                  </tr>
+
+               </tbody>
+</table>
+</div>
+
+         <p class="p methodName" id="d1e188134__d1e189684">undefined <strong class="ph b clip_button">remove</strong> (replacingWith:<em class="ph i">CharacterStyle</em>)</p>
+
+         <p class="p description">Deletes the style.</p>
+
+         
+<div class="tablenoborder"><table cellpadding="4" cellspacing="0" summary="" class="table parameterTable" frame="border" border="1" rules="all"><colgroup><col style="width:30%" /><col style="width:10%" /><col style="width:60%" /></colgroup><thead class="thead" style="text-align:left;">
+                  <tr class="row">
+                     <th class="entry cellrowborder" style="vertical-align:top;" id="d577335e2707">
+                        <p class="p">Parameter</p>
+
+                     </th>
+
+                     <th class="entry cellrowborder" style="vertical-align:top;" id="d577335e2713">
+                        <p class="p">Type</p>
+
+                     </th>
+
+                     <th class="entry cellrowborder" style="vertical-align:top;" id="d577335e2719">
+                        <p class="p">Description</p>
+
+                     </th>
+
+                  </tr>
+
+               </thead>
+<tbody class="tbody">
+                  <tr class="row">
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d577335e2707 ">
+                        <p class="p">replacingWith</p>
+
+                     </td>
+
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d577335e2713 ">
+                        <p class="p">
+                           <a class="xref" href="CharacterStyle.html#d1e188134">CharacterStyle</a>
+                        </p>
+
+                     </td>
+
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d577335e2719 ">
+                        <p class="p description">The style to apply in place of the deleted style. (Optional)</p>
+
+                     </td>
+
+                  </tr>
+
+               </tbody>
+</table>
+</div>
+
+         <p class="p methodName" id="d1e188134__d1e189702">
+            <a class="xref" href="String.html#d1e3790">String</a>
+            <strong class="ph b clip_button">toSource</strong> ()</p>
+
+         <p class="p description">Generates a string which, if executed, will return the CharacterStyle.</p>
+
+         <p class="p methodName" id="d1e188134__d1e189713">
+            <a class="xref" href="String.html#d1e3790">String</a>
+            <strong class="ph b clip_button">toSpecifier</strong> ()</p>
+
+         <p class="p description">Retrieves the object specifier.</p>
+
+      </div>
+
+      <div class="section"><h2 class="title sectiontitle">Object of</h2>
+         
+         <p class="p noMargin">
+            <a class="xref" href="IndexOptions.html#d1e59003">IndexOptions</a>.crossReferenceTopicStyle</p>
+
+         <p class="p noMargin">
+            <a class="xref" href="IndexOptions.html#d1e59003">IndexOptions</a>.crossReferenceStyle</p>
+
+         <p class="p noMargin">
+            <a class="xref" href="IndexOptions.html#d1e59003">IndexOptions</a>.pageNumberStyle</p>
+
+         <p class="p noMargin">
+            <a class="xref" href="PageReference.html#d1e60307">PageReference</a>.pageNumberStyleOverride</p>
+
+         <p class="p noMargin">
+            <a class="xref" href="TOCStyleEntry.html#d1e138484">TOCStyleEntry</a>.pageNumberStyle</p>
+
+         <p class="p noMargin">
+            <a class="xref" href="TOCStyleEntry.html#d1e138484">TOCStyleEntry</a>.separatorStyle</p>
+
+         <p class="p noMargin">
+            <a class="xref" href="TextDefault.html#d1e113880">TextDefault</a>.appliedCharacterStyle</p>
+
+         <p class="p noMargin">
+            <a class="xref" href="Text.html#d1e151095">Text</a>.appliedCharacterStyle</p>
+
+         <p class="p noMargin">
+            <a class="xref" href="Character.html#d1e154615">Character</a>.appliedCharacterStyle</p>
+
+         <p class="p noMargin">
+            <a class="xref" href="Word.html#d1e158139">Word</a>.appliedCharacterStyle</p>
+
+         <p class="p noMargin">
+            <a class="xref" href="Line.html#d1e161662">Line</a>.appliedCharacterStyle</p>
+
+         <p class="p noMargin">
+            <a class="xref" href="TextColumn.html#d1e165185">TextColumn</a>.appliedCharacterStyle</p>
+
+         <p class="p noMargin">
+            <a class="xref" href="Paragraph.html#d1e168709">Paragraph</a>.appliedCharacterStyle</p>
+
+         <p class="p noMargin">
+            <a class="xref" href="TextStyleRange.html#d1e172232">TextStyleRange</a>.appliedCharacterStyle</p>
+
+         <p class="p noMargin">
+            <a class="xref" href="InsertionPoint.html#d1e175755">InsertionPoint</a>.appliedCharacterStyle</p>
+
+         <p class="p noMargin">
+            <a class="xref" href="Story.html#d1e182288">Story</a>.appliedCharacterStyle</p>
+
+         <p class="p noMargin">
+            <a class="xref" href="NestedStyle.html#d1e190508">NestedStyle</a>.appliedCharacterStyle</p>
+
+         <p class="p noMargin">
+            <a class="xref" href="FootnoteOption.html#d1e130899">FootnoteOption</a>.footnoteMarkerStyle</p>
+
+         <p class="p noMargin">
+            <a class="xref" href="TextDefault.html#d1e113880">TextDefault</a>.dropCapStyle</p>
+
+         <p class="p noMargin">
+            <a class="xref" href="Text.html#d1e151095">Text</a>.dropCapStyle</p>
+
+         <p class="p noMargin">
+            <a class="xref" href="Character.html#d1e154615">Character</a>.dropCapStyle</p>
+
+         <p class="p noMargin">
+            <a class="xref" href="Word.html#d1e158139">Word</a>.dropCapStyle</p>
+
+         <p class="p noMargin">
+            <a class="xref" href="Line.html#d1e161662">Line</a>.dropCapStyle</p>
+
+         <p class="p noMargin">
+            <a class="xref" href="TextColumn.html#d1e165185">TextColumn</a>.dropCapStyle</p>
+
+         <p class="p noMargin">
+            <a class="xref" href="Paragraph.html#d1e168709">Paragraph</a>.dropCapStyle</p>
+
+         <p class="p noMargin">
+            <a class="xref" href="TextStyleRange.html#d1e172232">TextStyleRange</a>.dropCapStyle</p>
+
+         <p class="p noMargin">
+            <a class="xref" href="InsertionPoint.html#d1e175755">InsertionPoint</a>.dropCapStyle</p>
+
+         <p class="p noMargin">
+            <a class="xref" href="Story.html#d1e182288">Story</a>.dropCapStyle</p>
+
+         <p class="p noMargin">
+            <a class="xref" href="ParagraphStyle.html#d1e185661">ParagraphStyle</a>.dropCapStyle</p>
+
+         <p class="p noMargin">
+            <a class="xref" href="CharacterStyle.html#d1e188134">CharacterStyle</a>.basedOn</p>
+
+      </div>
+
+      <div class="section"><h2 class="title sectiontitle">Return</h2>
+         
+         <p class="p noMargin">
+            <a class="xref" href="CharacterStyles.html#d1e189725">CharacterStyles</a>.<a class="xref" href="CharacterStyles.html#d1e189725__d1e189754">add</a>()</p>
+
+         <p class="p noMargin">
+            <a class="xref" href="CharacterStyles.html#d1e189725">CharacterStyles</a>.<a class="xref" href="CharacterStyles.html#d1e189725__d1e189777">anyItem</a>()</p>
+
+         <p class="p noMargin">
+            <a class="xref" href="CharacterStyles.html#d1e189725">CharacterStyles</a>.<a class="xref" href="CharacterStyles.html#d1e189725__d1e189797">everyItem</a>()</p>
+
+         <p class="p noMargin">
+            <a class="xref" href="CharacterStyles.html#d1e189725">CharacterStyles</a>.<a class="xref" href="CharacterStyles.html#d1e189725__d1e189985">nextItem</a>()</p>
+
+         <p class="p noMargin">
+            <a class="xref" href="CharacterStyles.html#d1e189725">CharacterStyles</a>.<a class="xref" href="CharacterStyles.html#d1e189725__d1e190008">previousItem</a>()</p>
+
+         <p class="p noMargin">
+            <a class="xref" href="CharacterStyles.html#d1e189725">CharacterStyles</a>.<a class="xref" href="CharacterStyles.html#d1e189725__d1e189853">itemByID</a>()</p>
+
+         <p class="p noMargin">
+            <a class="xref" href="CharacterStyles.html#d1e189725">CharacterStyles</a>.<a class="xref" href="CharacterStyles.html#d1e189725__d1e189820">item</a>()</p>
+
+         <p class="p noMargin">
+            <a class="xref" href="CharacterStyles.html#d1e189725">CharacterStyles</a>.<a class="xref" href="CharacterStyles.html#d1e189725__d1e189876">itemByName</a>()</p>
+
+         <p class="p noMargin">
+            <a class="xref" href="CharacterStyles.html#d1e189725">CharacterStyles</a>.<a class="xref" href="CharacterStyles.html#d1e189725__d1e189899">itemByRange</a>()</p>
+
+         <p class="p noMargin">
+            <a class="xref" href="CharacterStyles.html#d1e189725">CharacterStyles</a>.<a class="xref" href="CharacterStyles.html#d1e189725__d1e189809">firstItem</a>()</p>
+
+         <p class="p noMargin">
+            <a class="xref" href="CharacterStyles.html#d1e189725">CharacterStyles</a>.<a class="xref" href="CharacterStyles.html#d1e189725__d1e189964">lastItem</a>()</p>
+
+         <p class="p noMargin">
+            <a class="xref" href="CharacterStyles.html#d1e189725">CharacterStyles</a>.<a class="xref" href="CharacterStyles.html#d1e189725__d1e189974">middleItem</a>()</p>
+
+      </div>
+
+   </div>
+
+<div class="related-links">
+<div class="familylinks">
+<div class="parentlink"><strong>Parent topic:</strong> <a class="link" href="Character.html">Character</a></div>
+</div>
+</div></body>
+</html>

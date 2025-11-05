@@ -1,0 +1,1747 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<meta name="copyright" content="(C) Copyright 2025" />
+<meta name="DC.rights.owner" content="(C) Copyright 2025" />
+<meta name="generator" content="DITA-OT" /><meta name="DC.type" content="topic" />
+<meta name="DC.title" content="XMLElement" />
+<meta name="DC.format" content="XHTML" />
+<meta name="DC.identifier" content="d1e207151" />
+<link rel="stylesheet" type="text/css" href="commonltr.css" />
+<title>XMLElement</title>
+<link rel="stylesheet" type="text/css" href="styles/main.css" />
+<script type="text/javascript" src="scripts/main.js"></script>
+</head>
+<body id="d1e207151">
+
+   <h1 class="title topictitle1" id="ariaid-title1">
+      <span class="keyword">XMLElement</span>
+   </h1>
+
+   <div class="body">
+      <p class="p description">An XML element.</p>
+
+      <p class="p quicklinks">
+         Go to <strong class="ph b">
+            <a class="xref" href="#d1e207151__iProps">Property Listing</a>
+         </strong> | <strong class="ph b">
+            <a class="xref" href="#d1e207151__iMethods">Method Listing</a>
+         </strong>
+      </p>
+
+      <div class="section"><h2 class="title sectiontitle">Methods:</h2>
+         
+         <p class="p">
+            <a class="xref" href="#d1e207151__d1e207503">duplicate</a>,  <a class="xref" href="#d1e207151__d1e207513">exportFile</a>,  <a class="xref" href="#d1e207151__d1e207573">getElements</a>,  <a class="xref" href="#d1e207151__d1e207585">importXML</a>,  <a class="xref" href="#d1e207151__d1e207603">markup</a>,  <a class="xref" href="#d1e207151__d1e207637">move</a>,  <a class="xref" href="#d1e207151__d1e207680">placeXML</a>,  <a class="xref" href="#d1e207151__d1e207708">remove</a>,  <a class="xref" href="#d1e207151__d1e207713">select</a>,  <a class="xref" href="#d1e207151__d1e207733">store</a>,  <a class="xref" href="#d1e207151__d1e207756">toSource</a>,  <a class="xref" href="#d1e207151__d1e207767">toSpecifier</a>,  <a class="xref" href="#d1e207151__d1e207777">untag</a>,  <a class="xref" href="#d1e207151__d1e207782">validate</a>
+         </p>
+
+      </div>
+
+      <div class="section"><h2 class="title sectiontitle">Objects:</h2>
+         
+         <p class="p">
+            <a class="xref" href="Cells.html#d1e142617">Cells</a>, <a class="xref" href="Characters.html#d1e157876">Characters</a>, <a class="xref" href="DTDs.html#d1e212169">DTDs</a>, <a class="xref" href="EPSs.html#d1e100766">EPSs</a>, <a class="xref" href="Images.html#d1e99013">Images</a>, <a class="xref" href="InsertionPoints.html#d1e179016">InsertionPoints</a>, <a class="xref" href="Lines.html#d1e164923">Lines</a>, <a class="xref" href="Number.html#d1e4548">Number</a>, <a class="xref" href="Object.html#d1e538">Object</a>, <a class="xref" href="PDFs.html#d1e102504">PDFs</a>, <a class="xref" href="PICTs.html#d1e105809">PICTs</a>, <a class="xref" href="PageItems.html#d1e83775">PageItems</a>, <a class="xref" href="Paragraphs.html#d1e171970">Paragraphs</a>, <a class="xref" href="SpecialCharacters.html#d1e39826">SpecialCharacters</a>, <a class="xref" href="Stories.html#d1e185376">Stories</a>, <a class="xref" href="Story.html#d1e182288">Story</a>, <a class="xref" href="String.html#d1e3790">String</a>, <a class="xref" href="Tables.html#d1e144837">Tables</a>, <a class="xref" href="TextColumns.html#d1e168446">TextColumns</a>, <a class="xref" href="TextStyleRanges.html#d1e175493">TextStyleRanges</a>, <a class="xref" href="Texts.html#d1e154353">Texts</a>, <a class="xref" href="WMFs.html#d1e104157">WMFs</a>, <a class="xref" href="Words.html#d1e161400">Words</a>, <a class="xref" href="XMLAttributes.html#d1e208309">XMLAttributes</a>, <a class="xref" href="XMLComments.html#d1e210624">XMLComments</a>, <a class="xref" href="XMLElements.html#d1e207811">XMLElements</a>, <a class="xref" href="XMLInstructions.html#d1e211171">XMLInstructions</a>, <a class="xref" href="XMLItems.html#d1e211701">XMLItems</a>, <a class="xref" href="XMLTag.html#d1e208614">XMLTag</a>
+         </p>
+
+      </div>
+
+      <div class="section"><h2 class="title sectiontitle">Hierarchy:</h2>
+         
+         <p class="p">Superclass: 
+									<a class="xref" href="XMLItem.html#d1e211521">XMLItem</a>
+         </p>
+
+         <p class="p">Class: XMLElement</p>
+
+      </div>
+
+      <div class="section" id="d1e207151__iProps"><h2 class="title sectiontitle">Property Listing</h2>
+         
+         
+<div class="tablenoborder"><table cellpadding="4" cellspacing="0" summary="" class="table" frame="border" border="1" rules="all"><colgroup><col style="width:20%" /><col style="width:10%" /><col style="width:10%" /><col style="width:60%" /></colgroup><thead class="thead" style="text-align:left;">
+                  <tr class="row">
+                     <th class="entry cellrowborder" style="vertical-align:top;" id="d28999e275">
+                        <p class="p">Property</p>
+
+                     </th>
+
+                     <th class="entry cellrowborder" style="vertical-align:top;" id="d28999e281">
+                        <p class="p">Type</p>
+
+                     </th>
+
+                     <th class="entry cellrowborder" style="vertical-align:top;" id="d28999e287">
+                        <p class="p">Access</p>
+
+                     </th>
+
+                     <th class="entry cellrowborder" style="vertical-align:top;" id="d28999e293">
+                        <p class="p">Description</p>
+
+                     </th>
+
+                  </tr>
+
+               </thead>
+<tbody class="tbody">
+                  <tr class="row">
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d28999e275 ">
+                        <p class="p clip_button">cells</p>
+
+                     </td>
+
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d28999e281 ">
+                        <p class="p">
+                           <a class="xref" href="Cells.html#d1e142617">Cells</a>
+                           <em class="ph i">
+                              <a class="xref" href="Cell.html#d1e140782">Cell</a>
+                           </em>
+                        </p>
+
+                     </td>
+
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d28999e287 ">
+                        <p class="p">readonly</p>
+
+                     </td>
+
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d28999e293 ">
+                        <p class="p description">A collection of table cells.</p>
+
+                     </td>
+
+                  </tr>
+
+                  <tr class="row">
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d28999e275 ">
+                        <p class="p clip_button">characters</p>
+
+                     </td>
+
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d28999e281 ">
+                        <p class="p">
+                           <a class="xref" href="Characters.html#d1e157876">Characters</a>
+                           <em class="ph i">
+                              <a class="xref" href="Character.html#d1e154615">Character</a>
+                           </em>
+                        </p>
+
+                     </td>
+
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d28999e287 ">
+                        <p class="p">readonly</p>
+
+                     </td>
+
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d28999e293 ">
+                        <p class="p description">A collection of characters.</p>
+
+                     </td>
+
+                  </tr>
+
+                  <tr class="row">
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d28999e275 ">
+                        <p class="p clip_button">contents</p>
+
+                     </td>
+
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d28999e281 ">
+                        <p class="p">
+                           <a class="xref" href="String.html#d1e3790">String</a>
+                        </p>
+
+                        <p class="p">
+                           <a class="xref" href="SpecialCharacters.html#d1e39826">SpecialCharacters</a>
+                        </p>
+
+                        <p class="p enumInPTable clip_button">SpecialCharacters.AUTO_PAGE_NUMBER</p>
+
+                        <p class="p enumInPTable clip_button">SpecialCharacters.BULLET_CHARACTER</p>
+
+                        <p class="p enumInPTable clip_button">SpecialCharacters.COLUMN_BREAK</p>
+
+                        <p class="p enumInPTable clip_button">SpecialCharacters.COPYRIGHT_SYMBOL</p>
+
+                        <p class="p enumInPTable clip_button">SpecialCharacters.DEGREE_SYMBOL</p>
+
+                        <p class="p enumInPTable clip_button">SpecialCharacters.DISCRETIONARY_HYPHEN</p>
+
+                        <p class="p enumInPTable clip_button">SpecialCharacters.DOUBLE_LEFT_QUOTE</p>
+
+                        <p class="p enumInPTable clip_button">SpecialCharacters.DOUBLE_RIGHT_QUOTE</p>
+
+                        <p class="p enumInPTable clip_button">SpecialCharacters.ELLIPSIS_CHARACTER</p>
+
+                        <p class="p enumInPTable clip_button">SpecialCharacters.EM_DASH</p>
+
+                        <p class="p enumInPTable clip_button">SpecialCharacters.EM_SPACE</p>
+
+                        <p class="p enumInPTable clip_button">SpecialCharacters.END_NESTED_STYLE</p>
+
+                        <p class="p enumInPTable clip_button">SpecialCharacters.EN_DASH</p>
+
+                        <p class="p enumInPTable clip_button">SpecialCharacters.EN_SPACE</p>
+
+                        <p class="p enumInPTable clip_button">SpecialCharacters.EVEN_PAGE_BREAK</p>
+
+                        <p class="p enumInPTable clip_button">SpecialCharacters.FIGURE_SPACE</p>
+
+                        <p class="p enumInPTable clip_button">SpecialCharacters.FLUSH_SPACE</p>
+
+                        <p class="p enumInPTable clip_button">SpecialCharacters.FOOTNOTE_SYMBOL</p>
+
+                        <p class="p enumInPTable clip_button">SpecialCharacters.FORCED_LINE_BREAK</p>
+
+                        <p class="p enumInPTable clip_button">SpecialCharacters.FRAME_BREAK</p>
+
+                        <p class="p enumInPTable clip_button">SpecialCharacters.HAIR_SPACE</p>
+
+                        <p class="p enumInPTable clip_button">SpecialCharacters.INDENT_HERE_TAB</p>
+
+                        <p class="p enumInPTable clip_button">SpecialCharacters.NEXT_PAGE_NUMBER</p>
+
+                        <p class="p enumInPTable clip_button">SpecialCharacters.NONBREAKING_HYPHEN</p>
+
+                        <p class="p enumInPTable clip_button">SpecialCharacters.NONBREAKING_SPACE</p>
+
+                        <p class="p enumInPTable clip_button">SpecialCharacters.ODD_PAGE_BREAK</p>
+
+                        <p class="p enumInPTable clip_button">SpecialCharacters.PAGE_BREAK</p>
+
+                        <p class="p enumInPTable clip_button">SpecialCharacters.PARAGRAPH_SYMBOL</p>
+
+                        <p class="p enumInPTable clip_button">SpecialCharacters.PREVIOUS_PAGE_NUMBER</p>
+
+                        <p class="p enumInPTable clip_button">SpecialCharacters.PUNCTUATION_SPACE</p>
+
+                        <p class="p enumInPTable clip_button">SpecialCharacters.REGISTERED_TRADEMARK</p>
+
+                        <p class="p enumInPTable clip_button">SpecialCharacters.RIGHT_INDENT_TAB</p>
+
+                        <p class="p enumInPTable clip_button">SpecialCharacters.SECTION_MARKER</p>
+
+                        <p class="p enumInPTable clip_button">SpecialCharacters.SECTION_SYMBOL</p>
+
+                        <p class="p enumInPTable clip_button">SpecialCharacters.SINGLE_LEFT_QUOTE</p>
+
+                        <p class="p enumInPTable clip_button">SpecialCharacters.SINGLE_RIGHT_QUOTE</p>
+
+                        <p class="p enumInPTable clip_button">SpecialCharacters.THIN_SPACE</p>
+
+                        <p class="p enumInPTable clip_button">SpecialCharacters.TRADEMARK_SYMBOL</p>
+
+                     </td>
+
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d28999e287 ">
+                        <p class="p">read/write</p>
+
+                     </td>
+
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d28999e293 ">
+                        <p class="p description">The contents of the text. Can return: String or SpecialCharacters enumerator.</p>
+
+                     </td>
+
+                  </tr>
+
+                  <tr class="row">
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d28999e275 ">
+                        <p class="p clip_button">dtds</p>
+
+                     </td>
+
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d28999e281 ">
+                        <p class="p">
+                           <a class="xref" href="DTDs.html#d1e212169">DTDs</a>
+                           <em class="ph i">
+                              <a class="xref" href="DTD.html#d1e211986">DTD</a>
+                           </em>
+                        </p>
+
+                     </td>
+
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d28999e287 ">
+                        <p class="p">readonly</p>
+
+                     </td>
+
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d28999e293 ">
+                        <p class="p description">A collection of DTDs.</p>
+
+                     </td>
+
+                  </tr>
+
+                  <tr class="row">
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d28999e275 ">
+                        <p class="p clip_button">epss</p>
+
+                     </td>
+
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d28999e281 ">
+                        <p class="p">
+                           <a class="xref" href="EPSs.html#d1e100766">EPSs</a>
+                           <em class="ph i">
+                              <a class="xref" href="EPS.html#d1e99298">EPS</a>
+                           </em>
+                        </p>
+
+                     </td>
+
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d28999e287 ">
+                        <p class="p">readonly</p>
+
+                     </td>
+
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d28999e293 ">
+                        <p class="p description">A collection of EPS files.</p>
+
+                     </td>
+
+                  </tr>
+
+                  <tr class="row">
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d28999e275 ">
+                        <p class="p clip_button">id</p>
+
+                     </td>
+
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d28999e281 ">
+                        <p class="p">
+                           <a class="xref" href="Number.html#d1e4548">Number</a>
+                        </p>
+
+                     </td>
+
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d28999e287 ">
+                        <p class="p">readonly</p>
+
+                     </td>
+
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d28999e293 ">
+                        <p class="p description">The unique ID of the XMLElement.</p>
+
+                     </td>
+
+                  </tr>
+
+                  <tr class="row">
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d28999e275 ">
+                        <p class="p clip_button">images</p>
+
+                     </td>
+
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d28999e281 ">
+                        <p class="p">
+                           <a class="xref" href="Images.html#d1e99013">Images</a>
+                           <em class="ph i">
+                              <a class="xref" href="Image.html#d1e97461">Image</a>
+                           </em>
+                        </p>
+
+                     </td>
+
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d28999e287 ">
+                        <p class="p">readonly</p>
+
+                     </td>
+
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d28999e293 ">
+                        <p class="p description">A collection of bitmap images in any bitmap file format (including TIFF, JPEG, or GIF).</p>
+
+                     </td>
+
+                  </tr>
+
+                  <tr class="row">
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d28999e275 ">
+                        <p class="p clip_button">index</p>
+
+                     </td>
+
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d28999e281 ">
+                        <p class="p">
+                           <a class="xref" href="Number.html#d1e4548">Number</a>
+                        </p>
+
+                     </td>
+
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d28999e287 ">
+                        <p class="p">readonly</p>
+
+                     </td>
+
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d28999e293 ">
+                        <p class="p description">The index of the XMLElement within its containing object.</p>
+
+                     </td>
+
+                  </tr>
+
+                  <tr class="row">
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d28999e275 ">
+                        <p class="p clip_button">insertionPoints</p>
+
+                     </td>
+
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d28999e281 ">
+                        <p class="p">
+                           <a class="xref" href="InsertionPoints.html#d1e179016">InsertionPoints</a>
+                           <em class="ph i">
+                              <a class="xref" href="InsertionPoint.html#d1e175755">InsertionPoint</a>
+                           </em>
+                        </p>
+
+                     </td>
+
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d28999e287 ">
+                        <p class="p">readonly</p>
+
+                     </td>
+
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d28999e293 ">
+                        <p class="p description">A collection of insertion points.</p>
+
+                     </td>
+
+                  </tr>
+
+                  <tr class="row">
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d28999e275 ">
+                        <p class="p clip_button">lines</p>
+
+                     </td>
+
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d28999e281 ">
+                        <p class="p">
+                           <a class="xref" href="Lines.html#d1e164923">Lines</a>
+                           <em class="ph i">
+                              <a class="xref" href="Line.html#d1e161662">Line</a>
+                           </em>
+                        </p>
+
+                     </td>
+
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d28999e287 ">
+                        <p class="p">readonly</p>
+
+                     </td>
+
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d28999e293 ">
+                        <p class="p description">A collection of lines. </p>
+
+                     </td>
+
+                  </tr>
+
+                  <tr class="row">
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d28999e275 ">
+                        <p class="p clip_button">markupTag</p>
+
+                     </td>
+
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d28999e281 ">
+                        <p class="p">
+                           <a class="xref" href="XMLTag.html#d1e208614">XMLTag</a>
+                        </p>
+
+                        <p class="p">
+                           <a class="xref" href="String.html#d1e3790">String</a>
+                        </p>
+
+                     </td>
+
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d28999e287 ">
+                        <p class="p">read/write</p>
+
+                     </td>
+
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d28999e293 ">
+                        <p class="p description">The XML tag applied to the element. Can also accept: String.</p>
+
+                     </td>
+
+                  </tr>
+
+                  <tr class="row">
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d28999e275 ">
+                        <p class="p clip_button">pageItems</p>
+
+                     </td>
+
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d28999e281 ">
+                        <p class="p">
+                           <a class="xref" href="PageItems.html#d1e83775">PageItems</a>
+                           <em class="ph i">
+                              <a class="xref" href="PageItem.html#d1e81461">PageItem</a>
+                           </em>
+                        </p>
+
+                     </td>
+
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d28999e287 ">
+                        <p class="p">readonly</p>
+
+                     </td>
+
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d28999e293 ">
+                        <p class="p description">The page items collection, which can be used to process all page items in a container (such as a document, page, or group), regardless of type.</p>
+
+                     </td>
+
+                  </tr>
+
+                  <tr class="row">
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d28999e275 ">
+                        <p class="p clip_button">paragraphs</p>
+
+                     </td>
+
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d28999e281 ">
+                        <p class="p">
+                           <a class="xref" href="Paragraphs.html#d1e171970">Paragraphs</a>
+                           <em class="ph i">
+                              <a class="xref" href="Paragraph.html#d1e168709">Paragraph</a>
+                           </em>
+                        </p>
+
+                     </td>
+
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d28999e287 ">
+                        <p class="p">readonly</p>
+
+                     </td>
+
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d28999e293 ">
+                        <p class="p description">A collection of paragraphs.</p>
+
+                     </td>
+
+                  </tr>
+
+                  <tr class="row">
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d28999e275 ">
+                        <p class="p clip_button">parent</p>
+
+                     </td>
+
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d28999e281 ">
+                        <p class="p">
+                           <a class="xref" href="XMLElement.html#d1e207151">XMLElement</a>
+                        </p>
+
+                        <p class="p">
+                           <a class="xref" href="Document.html#d1e26379">Document</a>
+                        </p>
+
+                        <p class="p">
+                           <a class="xref" href="XMLItem.html#d1e211521">XMLItem</a>
+                        </p>
+
+                     </td>
+
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d28999e287 ">
+                        <p class="p">readonly</p>
+
+                     </td>
+
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d28999e293 ">
+                        <p class="p description">The parent of the XMLElement (a Document, XMLElement or XMLItem).</p>
+
+                     </td>
+
+                  </tr>
+
+                  <tr class="row">
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d28999e275 ">
+                        <p class="p clip_button">parentStory</p>
+
+                     </td>
+
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d28999e281 ">
+                        <p class="p">
+                           <a class="xref" href="Story.html#d1e182288">Story</a>
+                        </p>
+
+                     </td>
+
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d28999e287 ">
+                        <p class="p">readonly</p>
+
+                     </td>
+
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d28999e293 ">
+                        <p class="p description">The story that contains the text.</p>
+
+                     </td>
+
+                  </tr>
+
+                  <tr class="row">
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d28999e275 ">
+                        <p class="p clip_button">pdfs</p>
+
+                     </td>
+
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d28999e281 ">
+                        <p class="p">
+                           <a class="xref" href="PDFs.html#d1e102504">PDFs</a>
+                           <em class="ph i">
+                              <a class="xref" href="PDF.html#d1e101051">PDF</a>
+                           </em>
+                        </p>
+
+                     </td>
+
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d28999e287 ">
+                        <p class="p">readonly</p>
+
+                     </td>
+
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d28999e293 ">
+                        <p class="p description">A collection of PDF files.</p>
+
+                     </td>
+
+                  </tr>
+
+                  <tr class="row">
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d28999e275 ">
+                        <p class="p clip_button">picts</p>
+
+                     </td>
+
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d28999e281 ">
+                        <p class="p">
+                           <a class="xref" href="PICTs.html#d1e105809">PICTs</a>
+                           <em class="ph i">
+                              <a class="xref" href="PICT.html#d1e104442">PICT</a>
+                           </em>
+                        </p>
+
+                     </td>
+
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d28999e287 ">
+                        <p class="p">readonly</p>
+
+                     </td>
+
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d28999e293 ">
+                        <p class="p description">A collection of PICT graphics.</p>
+
+                     </td>
+
+                  </tr>
+
+                  <tr class="row">
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d28999e275 ">
+                        <p class="p clip_button">properties</p>
+
+                     </td>
+
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d28999e281 ">
+                        <p class="p">
+                           <a class="xref" href="Object.html#d1e538">Object</a>
+                        </p>
+
+                     </td>
+
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d28999e287 ">
+                        <p class="p">read/write</p>
+
+                     </td>
+
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d28999e293 ">
+                        <p class="p description">A property that allows setting of several properties at the same time.</p>
+
+                     </td>
+
+                  </tr>
+
+                  <tr class="row">
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d28999e275 ">
+                        <p class="p clip_button">stories</p>
+
+                     </td>
+
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d28999e281 ">
+                        <p class="p">
+                           <a class="xref" href="Stories.html#d1e185376">Stories</a>
+                           <em class="ph i">
+                              <a class="xref" href="Story.html#d1e182288">Story</a>
+                           </em>
+                        </p>
+
+                     </td>
+
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d28999e287 ">
+                        <p class="p">readonly</p>
+
+                     </td>
+
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d28999e293 ">
+                        <p class="p description">A collection of stories.</p>
+
+                     </td>
+
+                  </tr>
+
+                  <tr class="row">
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d28999e275 ">
+                        <p class="p clip_button">storyOffset</p>
+
+                     </td>
+
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d28999e281 ">
+                        <p class="p">
+                           <a class="xref" href="Number.html#d1e4548">Number</a>
+                        </p>
+
+                     </td>
+
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d28999e287 ">
+                        <p class="p">readonly</p>
+
+                     </td>
+
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d28999e293 ">
+                        <p class="p description">The index of the character containing the table (from the beginning of the story).</p>
+
+                     </td>
+
+                  </tr>
+
+                  <tr class="row">
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d28999e275 ">
+                        <p class="p clip_button">tables</p>
+
+                     </td>
+
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d28999e281 ">
+                        <p class="p">
+                           <a class="xref" href="Tables.html#d1e144837">Tables</a>
+                           <em class="ph i">
+                              <a class="xref" href="Table.html#d1e142903">Table</a>
+                           </em>
+                        </p>
+
+                     </td>
+
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d28999e287 ">
+                        <p class="p">readonly</p>
+
+                     </td>
+
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d28999e293 ">
+                        <p class="p description">A collection of tables.</p>
+
+                     </td>
+
+                  </tr>
+
+                  <tr class="row">
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d28999e275 ">
+                        <p class="p clip_button">textColumns</p>
+
+                     </td>
+
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d28999e281 ">
+                        <p class="p">
+                           <a class="xref" href="TextColumns.html#d1e168446">TextColumns</a>
+                           <em class="ph i">
+                              <a class="xref" href="TextColumn.html#d1e165185">TextColumn</a>
+                           </em>
+                        </p>
+
+                     </td>
+
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d28999e287 ">
+                        <p class="p">readonly</p>
+
+                     </td>
+
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d28999e293 ">
+                        <p class="p description">A collection of text columns.</p>
+
+                     </td>
+
+                  </tr>
+
+                  <tr class="row">
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d28999e275 ">
+                        <p class="p clip_button">textStyleRanges</p>
+
+                     </td>
+
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d28999e281 ">
+                        <p class="p">
+                           <a class="xref" href="TextStyleRanges.html#d1e175493">TextStyleRanges</a>
+                           <em class="ph i">
+                              <a class="xref" href="TextStyleRange.html#d1e172232">TextStyleRange</a>
+                           </em>
+                        </p>
+
+                     </td>
+
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d28999e287 ">
+                        <p class="p">readonly</p>
+
+                     </td>
+
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d28999e293 ">
+                        <p class="p description">A collection of text style ranges.</p>
+
+                     </td>
+
+                  </tr>
+
+                  <tr class="row">
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d28999e275 ">
+                        <p class="p clip_button">texts</p>
+
+                     </td>
+
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d28999e281 ">
+                        <p class="p">
+                           <a class="xref" href="Texts.html#d1e154353">Texts</a>
+                           <em class="ph i">
+                              <a class="xref" href="Text.html#d1e151095">Text</a>
+                           </em>
+                        </p>
+
+                     </td>
+
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d28999e287 ">
+                        <p class="p">readonly</p>
+
+                     </td>
+
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d28999e293 ">
+                        <p class="p description">A collection of text objects.</p>
+
+                     </td>
+
+                  </tr>
+
+                  <tr class="row">
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d28999e275 ">
+                        <p class="p clip_button">wmfs</p>
+
+                     </td>
+
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d28999e281 ">
+                        <p class="p">
+                           <a class="xref" href="WMFs.html#d1e104157">WMFs</a>
+                           <em class="ph i">
+                              <a class="xref" href="WMF.html#d1e102790">WMF</a>
+                           </em>
+                        </p>
+
+                     </td>
+
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d28999e287 ">
+                        <p class="p">readonly</p>
+
+                     </td>
+
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d28999e293 ">
+                        <p class="p description">A collection of WMF graphics.</p>
+
+                     </td>
+
+                  </tr>
+
+                  <tr class="row">
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d28999e275 ">
+                        <p class="p clip_button">words</p>
+
+                     </td>
+
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d28999e281 ">
+                        <p class="p">
+                           <a class="xref" href="Words.html#d1e161400">Words</a>
+                           <em class="ph i">
+                              <a class="xref" href="Word.html#d1e158139">Word</a>
+                           </em>
+                        </p>
+
+                     </td>
+
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d28999e287 ">
+                        <p class="p">readonly</p>
+
+                     </td>
+
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d28999e293 ">
+                        <p class="p description">A collection of words.</p>
+
+                     </td>
+
+                  </tr>
+
+                  <tr class="row">
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d28999e275 ">
+                        <p class="p clip_button">xmlAttributes</p>
+
+                     </td>
+
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d28999e281 ">
+                        <p class="p">
+                           <a class="xref" href="XMLAttributes.html#d1e208309">XMLAttributes</a>
+                           <em class="ph i">
+                              <a class="xref" href="XMLAttribute.html#d1e208190">XMLAttribute</a>
+                           </em>
+                        </p>
+
+                     </td>
+
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d28999e287 ">
+                        <p class="p">readonly</p>
+
+                     </td>
+
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d28999e293 ">
+                        <p class="p description">A collection of XML attributes.</p>
+
+                     </td>
+
+                  </tr>
+
+                  <tr class="row">
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d28999e275 ">
+                        <p class="p clip_button">xmlComments</p>
+
+                     </td>
+
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d28999e281 ">
+                        <p class="p">
+                           <a class="xref" href="XMLComments.html#d1e210624">XMLComments</a>
+                           <em class="ph i">
+                              <a class="xref" href="XMLComment.html#d1e210428">XMLComment</a>
+                           </em>
+                        </p>
+
+                     </td>
+
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d28999e287 ">
+                        <p class="p">readonly</p>
+
+                     </td>
+
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d28999e293 ">
+                        <p class="p description">A collection of XML comments.</p>
+
+                     </td>
+
+                  </tr>
+
+                  <tr class="row">
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d28999e275 ">
+                        <p class="p clip_button">xmlElements</p>
+
+                     </td>
+
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d28999e281 ">
+                        <p class="p">
+                           <a class="xref" href="XMLElements.html#d1e207811">XMLElements</a>
+                           <em class="ph i">
+                              <a class="xref" href="XMLElement.html#d1e207151">XMLElement</a>
+                           </em>
+                        </p>
+
+                     </td>
+
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d28999e287 ">
+                        <p class="p">readonly</p>
+
+                     </td>
+
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d28999e293 ">
+                        <p class="p description">A collection of XML elements.</p>
+
+                     </td>
+
+                  </tr>
+
+                  <tr class="row">
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d28999e275 ">
+                        <p class="p clip_button">xmlInstructions</p>
+
+                     </td>
+
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d28999e281 ">
+                        <p class="p">
+                           <a class="xref" href="XMLInstructions.html#d1e211171">XMLInstructions</a>
+                           <em class="ph i">
+                              <a class="xref" href="XMLInstruction.html#d1e210964">XMLInstruction</a>
+                           </em>
+                        </p>
+
+                     </td>
+
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d28999e287 ">
+                        <p class="p">readonly</p>
+
+                     </td>
+
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d28999e293 ">
+                        <p class="p description">A collection of XML instructions.</p>
+
+                     </td>
+
+                  </tr>
+
+                  <tr class="row">
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d28999e275 ">
+                        <p class="p clip_button">xmlItems</p>
+
+                     </td>
+
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d28999e281 ">
+                        <p class="p">
+                           <a class="xref" href="XMLItems.html#d1e211701">XMLItems</a>
+                           <em class="ph i">
+                              <a class="xref" href="XMLItem.html#d1e211521">XMLItem</a>
+                           </em>
+                        </p>
+
+                     </td>
+
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d28999e287 ">
+                        <p class="p">readonly</p>
+
+                     </td>
+
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d28999e293 ">
+                        <p class="p description">A collection of XML items.</p>
+
+                     </td>
+
+                  </tr>
+
+               </tbody>
+</table>
+</div>
+
+      </div>
+
+      <div class="section" id="d1e207151__iMethods"><h2 class="title sectiontitle">Method Listing</h2>
+         
+         <p class="p methodName" id="d1e207151__d1e207503">
+            <a class="xref" href="XMLElement.html#d1e207151">XMLElement</a>
+            <strong class="ph b clip_button">duplicate</strong> ()</p>
+
+         <p class="p description">Duplicates the XMLElement.</p>
+
+         <p class="p methodName" id="d1e207151__d1e207513">undefined <strong class="ph b clip_button">exportFile</strong> (format:<em class="ph i">Varies ExportFormat String</em>, to:<em class="ph i">File</em>, [showingOptions:<em class="ph i">Boolean</em>=Boolean], using:<em class="ph i">PDFExportPreset</em>)</p>
+
+         <p class="p description">Exports the object(s) to a file.</p>
+
+         
+<div class="tablenoborder"><table cellpadding="4" cellspacing="0" summary="" class="table parameterTable" frame="border" border="1" rules="all"><colgroup><col style="width:30%" /><col style="width:10%" /><col style="width:60%" /></colgroup><thead class="thead" style="text-align:left;">
+                  <tr class="row">
+                     <th class="entry cellrowborder" style="vertical-align:top;" id="d28999e1637">
+                        <p class="p">Parameter</p>
+
+                     </th>
+
+                     <th class="entry cellrowborder" style="vertical-align:top;" id="d28999e1643">
+                        <p class="p">Type</p>
+
+                     </th>
+
+                     <th class="entry cellrowborder" style="vertical-align:top;" id="d28999e1649">
+                        <p class="p">Description</p>
+
+                     </th>
+
+                  </tr>
+
+               </thead>
+<tbody class="tbody">
+                  <tr class="row">
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d28999e1637 ">
+                        <p class="p">format</p>
+
+                     </td>
+
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d28999e1643 ">
+                        <p class="p">
+                           <a class="xref" href="ExportFormat.html#d1e44025">ExportFormat</a>
+                        </p>
+
+                        <p class="p enumInPTable clip_button">ExportFormat.EPS_TYPE</p>
+
+                        <p class="p enumInPTable clip_button">ExportFormat.INCOPY</p>
+
+                        <p class="p enumInPTable clip_button">ExportFormat.INCOPY_CS2_STORY</p>
+
+                        <p class="p enumInPTable clip_button">ExportFormat.INDESIGN_INTERCHANGE</p>
+
+                        <p class="p enumInPTable clip_button">ExportFormat.INDESIGN_SNIPPET</p>
+
+                        <p class="p enumInPTable clip_button">ExportFormat.JPG</p>
+
+                        <p class="p enumInPTable clip_button">ExportFormat.PDF_TYPE</p>
+
+                        <p class="p enumInPTable clip_button">ExportFormat.RTF</p>
+
+                        <p class="p enumInPTable clip_button">ExportFormat.SVG</p>
+
+                        <p class="p enumInPTable clip_button">ExportFormat.SVG_COMPRESSED</p>
+
+                        <p class="p enumInPTable clip_button">ExportFormat.TAGGED_TEXT</p>
+
+                        <p class="p enumInPTable clip_button">ExportFormat.TEXT_TYPE</p>
+
+                        <p class="p enumInPTable clip_button">ExportFormat.XML</p>
+
+                        <p class="p">
+                           <a class="xref" href="String.html#d1e3790">String</a>
+                        </p>
+
+                     </td>
+
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d28999e1649 ">
+                        <p class="p description">The export format. Can accept: ExportFormat enumerator or String.</p>
+
+                     </td>
+
+                  </tr>
+
+                  <tr class="row">
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d28999e1637 ">
+                        <p class="p">to</p>
+
+                     </td>
+
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d28999e1643 ">
+                        <p class="p">
+                           <a class="xref" href="File.html#d1e5280">File</a>
+                        </p>
+
+                     </td>
+
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d28999e1649 ">
+                        <p class="p description">The path of the export file.</p>
+
+                     </td>
+
+                  </tr>
+
+                  <tr class="row">
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d28999e1637 ">
+                        <p class="p">showingOptions</p>
+
+                     </td>
+
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d28999e1643 ">
+                        <p class="p">
+                           <a class="xref" href="Boolean.html#d1e4783">Boolean</a>
+                        </p>
+
+                     </td>
+
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d28999e1649 ">
+                        <p class="p description">If true, prompts the user to select export options. (Optional)</p>
+
+                        <p class="p"> (default: false)</p>
+
+                     </td>
+
+                  </tr>
+
+                  <tr class="row">
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d28999e1637 ">
+                        <p class="p">using</p>
+
+                     </td>
+
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d28999e1643 ">
+                        <p class="p">
+                           <a class="xref" href="PDFExportPreset.html#d1e121643">PDFExportPreset</a>
+                        </p>
+
+                     </td>
+
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d28999e1649 ">
+                        <p class="p description">The export style to use. (Optional)</p>
+
+                     </td>
+
+                  </tr>
+
+               </tbody>
+</table>
+</div>
+
+         <p class="p methodName" id="d1e207151__d1e207573">
+            <a class="xref" href="Object.html#d1e538">Object</a>
+            <strong class="ph b clip_button">getElements</strong> ()</p>
+
+         <p class="p description">Resolves the object specifier, creating an array of object references.</p>
+
+         <p class="p methodName" id="d1e207151__d1e207585">undefined <strong class="ph b clip_button">importXML</strong> (from:<em class="ph i">File</em>)</p>
+
+         <p class="p description">Imports an XML file.</p>
+
+         
+<div class="tablenoborder"><table cellpadding="4" cellspacing="0" summary="" class="table parameterTable" frame="border" border="1" rules="all"><colgroup><col style="width:30%" /><col style="width:10%" /><col style="width:60%" /></colgroup><thead class="thead" style="text-align:left;">
+                  <tr class="row">
+                     <th class="entry cellrowborder" style="vertical-align:top;" id="d28999e1852">
+                        <p class="p">Parameter</p>
+
+                     </th>
+
+                     <th class="entry cellrowborder" style="vertical-align:top;" id="d28999e1858">
+                        <p class="p">Type</p>
+
+                     </th>
+
+                     <th class="entry cellrowborder" style="vertical-align:top;" id="d28999e1864">
+                        <p class="p">Description</p>
+
+                     </th>
+
+                  </tr>
+
+               </thead>
+<tbody class="tbody">
+                  <tr class="row">
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d28999e1852 ">
+                        <p class="p">from</p>
+
+                     </td>
+
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d28999e1858 ">
+                        <p class="p">
+                           <a class="xref" href="File.html#d1e5280">File</a>
+                        </p>
+
+                     </td>
+
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d28999e1864 ">
+                        <p class="p description">The path to the XML file.</p>
+
+                     </td>
+
+                  </tr>
+
+               </tbody>
+</table>
+</div>
+
+         <p class="p methodName" id="d1e207151__d1e207603">undefined <strong class="ph b clip_button">markup</strong> (using:<em class="ph i">Varies Story Text PageItem</em>)</p>
+
+         <p class="p description">Associates the object with the specified XML element while preserving existing content.</p>
+
+         
+<div class="tablenoborder"><table cellpadding="4" cellspacing="0" summary="" class="table parameterTable" frame="border" border="1" rules="all"><colgroup><col style="width:30%" /><col style="width:10%" /><col style="width:60%" /></colgroup><thead class="thead" style="text-align:left;">
+                  <tr class="row">
+                     <th class="entry cellrowborder" style="vertical-align:top;" id="d28999e1929">
+                        <p class="p">Parameter</p>
+
+                     </th>
+
+                     <th class="entry cellrowborder" style="vertical-align:top;" id="d28999e1935">
+                        <p class="p">Type</p>
+
+                     </th>
+
+                     <th class="entry cellrowborder" style="vertical-align:top;" id="d28999e1941">
+                        <p class="p">Description</p>
+
+                     </th>
+
+                  </tr>
+
+               </thead>
+<tbody class="tbody">
+                  <tr class="row">
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d28999e1929 ">
+                        <p class="p">using</p>
+
+                     </td>
+
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d28999e1935 ">
+                        <p class="p">
+                           <a class="xref" href="Story.html#d1e182288">Story</a>
+                        </p>
+
+                        <p class="p">
+                           <a class="xref" href="Text.html#d1e151095">Text</a>
+                        </p>
+
+                        <p class="p">
+                           <a class="xref" href="PageItem.html#d1e81461">PageItem</a>
+                        </p>
+
+                     </td>
+
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d28999e1941 ">
+                        <p class="p description">The object to mark up. Can accept: Text, Story or PageItem.</p>
+
+                     </td>
+
+                  </tr>
+
+               </tbody>
+</table>
+</div>
+
+         <p class="p methodName" id="d1e207151__d1e207637">
+            <a class="xref" href="XMLElement.html#d1e207151">XMLElement</a>
+            <strong class="ph b clip_button">move</strong> (to:<em class="ph i">LocationOptions</em>, reference:<em class="ph i">Varies XMLItem Text</em>)</p>
+
+         <p class="p description">Moves the element to the specified location. </p>
+
+         
+<div class="tablenoborder"><table cellpadding="4" cellspacing="0" summary="" class="table parameterTable" frame="border" border="1" rules="all"><colgroup><col style="width:30%" /><col style="width:10%" /><col style="width:60%" /></colgroup><thead class="thead" style="text-align:left;">
+                  <tr class="row">
+                     <th class="entry cellrowborder" style="vertical-align:top;" id="d28999e2026">
+                        <p class="p">Parameter</p>
+
+                     </th>
+
+                     <th class="entry cellrowborder" style="vertical-align:top;" id="d28999e2032">
+                        <p class="p">Type</p>
+
+                     </th>
+
+                     <th class="entry cellrowborder" style="vertical-align:top;" id="d28999e2038">
+                        <p class="p">Description</p>
+
+                     </th>
+
+                  </tr>
+
+               </thead>
+<tbody class="tbody">
+                  <tr class="row">
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d28999e2026 ">
+                        <p class="p">to</p>
+
+                     </td>
+
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d28999e2032 ">
+                        <p class="p">
+                           <a class="xref" href="LocationOptions.html#d1e43451">LocationOptions</a>
+                        </p>
+
+                        <p class="p enumInPTable clip_button">LocationOptions.AFTER</p>
+
+                        <p class="p enumInPTable clip_button">LocationOptions.AT_BEGINNING</p>
+
+                        <p class="p enumInPTable clip_button">LocationOptions.AT_END</p>
+
+                        <p class="p enumInPTable clip_button">LocationOptions.BEFORE</p>
+
+                        <p class="p enumInPTable clip_button">LocationOptions.UNKNOWN</p>
+
+                     </td>
+
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d28999e2038 ">
+                        <p class="p description">The location in relation to the reference object or within the containing object.</p>
+
+                     </td>
+
+                  </tr>
+
+                  <tr class="row">
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d28999e2026 ">
+                        <p class="p">reference</p>
+
+                     </td>
+
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d28999e2032 ">
+                        <p class="p">
+                           <a class="xref" href="XMLItem.html#d1e211521">XMLItem</a>
+                        </p>
+
+                        <p class="p">
+                           <a class="xref" href="Text.html#d1e151095">Text</a>
+                        </p>
+
+                     </td>
+
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d28999e2038 ">
+                        <p class="p description">The reference object. Note: Required when the to parameter specifies before or after. . Can accept: XMLItem or Text. (Optional)</p>
+
+                     </td>
+
+                  </tr>
+
+               </tbody>
+</table>
+</div>
+
+         <p class="p methodName" id="d1e207151__d1e207680">undefined <strong class="ph b clip_button">placeXML</strong> (using:<em class="ph i">Varies Story PageItem</em>)</p>
+
+         <p class="p description">Places XML content into the story, replacing the existing content. </p>
+
+         
+<div class="tablenoborder"><table cellpadding="4" cellspacing="0" summary="" class="table parameterTable" frame="border" border="1" rules="all"><colgroup><col style="width:30%" /><col style="width:10%" /><col style="width:60%" /></colgroup><thead class="thead" style="text-align:left;">
+                  <tr class="row">
+                     <th class="entry cellrowborder" style="vertical-align:top;" id="d28999e2151">
+                        <p class="p">Parameter</p>
+
+                     </th>
+
+                     <th class="entry cellrowborder" style="vertical-align:top;" id="d28999e2157">
+                        <p class="p">Type</p>
+
+                     </th>
+
+                     <th class="entry cellrowborder" style="vertical-align:top;" id="d28999e2163">
+                        <p class="p">Description</p>
+
+                     </th>
+
+                  </tr>
+
+               </thead>
+<tbody class="tbody">
+                  <tr class="row">
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d28999e2151 ">
+                        <p class="p">using</p>
+
+                     </td>
+
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d28999e2157 ">
+                        <p class="p">
+                           <a class="xref" href="Story.html#d1e182288">Story</a>
+                        </p>
+
+                        <p class="p">
+                           <a class="xref" href="PageItem.html#d1e81461">PageItem</a>
+                        </p>
+
+                     </td>
+
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d28999e2163 ">
+                        <p class="p description">The story into which to place the XML content. Can accept: Story or PageItem.</p>
+
+                     </td>
+
+                  </tr>
+
+               </tbody>
+</table>
+</div>
+
+         <p class="p methodName" id="d1e207151__d1e207708">undefined <strong class="ph b clip_button">remove</strong> ()</p>
+
+         <p class="p description">Deletes the XMLElement.</p>
+
+         <p class="p methodName" id="d1e207151__d1e207713">undefined <strong class="ph b clip_button">select</strong> ([existingSelection:<em class="ph i">SelectionOptions</em>=SelectionOptions])</p>
+
+         <p class="p description">Selects the object.</p>
+
+         
+<div class="tablenoborder"><table cellpadding="4" cellspacing="0" summary="" class="table parameterTable" frame="border" border="1" rules="all"><colgroup><col style="width:30%" /><col style="width:10%" /><col style="width:60%" /></colgroup><thead class="thead" style="text-align:left;">
+                  <tr class="row">
+                     <th class="entry cellrowborder" style="vertical-align:top;" id="d28999e2244">
+                        <p class="p">Parameter</p>
+
+                     </th>
+
+                     <th class="entry cellrowborder" style="vertical-align:top;" id="d28999e2250">
+                        <p class="p">Type</p>
+
+                     </th>
+
+                     <th class="entry cellrowborder" style="vertical-align:top;" id="d28999e2256">
+                        <p class="p">Description</p>
+
+                     </th>
+
+                  </tr>
+
+               </thead>
+<tbody class="tbody">
+                  <tr class="row">
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d28999e2244 ">
+                        <p class="p">existingSelection</p>
+
+                     </td>
+
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d28999e2250 ">
+                        <p class="p">
+                           <a class="xref" href="SelectionOptions.html#d1e51628">SelectionOptions</a>
+                        </p>
+
+                        <p class="p enumInPTable clip_button">SelectionOptions.ADD_TO</p>
+
+                        <p class="p enumInPTable clip_button">SelectionOptions.REMOVE_FROM</p>
+
+                        <p class="p enumInPTable clip_button">SelectionOptions.REPLACE_WITH</p>
+
+                     </td>
+
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d28999e2256 ">
+                        <p class="p description">The selection status of the XMLElement in relation to previously selected objects. (Optional)</p>
+
+                        <p class="p"> (default: SelectionOptions.REPLACE_WITH)</p>
+
+                     </td>
+
+                  </tr>
+
+               </tbody>
+</table>
+</div>
+
+         <p class="p methodName" id="d1e207151__d1e207733">
+            <a class="xref" href="Asset.html#d1e110420">Asset</a>
+            <strong class="ph b clip_button">store</strong> (using:<em class="ph i">Library</em>)</p>
+
+         <p class="p description">Store a page item in a library</p>
+
+         
+<div class="tablenoborder"><table cellpadding="4" cellspacing="0" summary="" class="table parameterTable" frame="border" border="1" rules="all"><colgroup><col style="width:30%" /><col style="width:10%" /><col style="width:60%" /></colgroup><thead class="thead" style="text-align:left;">
+                  <tr class="row">
+                     <th class="entry cellrowborder" style="vertical-align:top;" id="d28999e2336">
+                        <p class="p">Parameter</p>
+
+                     </th>
+
+                     <th class="entry cellrowborder" style="vertical-align:top;" id="d28999e2342">
+                        <p class="p">Type</p>
+
+                     </th>
+
+                     <th class="entry cellrowborder" style="vertical-align:top;" id="d28999e2348">
+                        <p class="p">Description</p>
+
+                     </th>
+
+                  </tr>
+
+               </thead>
+<tbody class="tbody">
+                  <tr class="row">
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d28999e2336 ">
+                        <p class="p">using</p>
+
+                     </td>
+
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d28999e2342 ">
+                        <p class="p">
+                           <a class="xref" href="Library.html#d1e109916">Library</a>
+                        </p>
+
+                     </td>
+
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d28999e2348 ">
+                        <p class="p description">The library in which to store</p>
+
+                     </td>
+
+                  </tr>
+
+               </tbody>
+</table>
+</div>
+
+         <p class="p methodName" id="d1e207151__d1e207756">
+            <a class="xref" href="String.html#d1e3790">String</a>
+            <strong class="ph b clip_button">toSource</strong> ()</p>
+
+         <p class="p description">Generates a string which, if executed, will return the XMLElement.</p>
+
+         <p class="p methodName" id="d1e207151__d1e207767">
+            <a class="xref" href="String.html#d1e3790">String</a>
+            <strong class="ph b clip_button">toSpecifier</strong> ()</p>
+
+         <p class="p description">Retrieves the object specifier.</p>
+
+         <p class="p methodName" id="d1e207151__d1e207777">undefined <strong class="ph b clip_button">untag</strong> ()</p>
+
+         <p class="p description">Untags an element.</p>
+
+         <p class="p methodName" id="d1e207151__d1e207782">
+            <a class="xref" href="ValidationError.html#d1e210062">ValidationError</a>
+            <strong class="ph b clip_button">validate</strong> ([maximumErrors:<em class="ph i">Number</em>=Number])</p>
+
+         <p class="p description">Validates the element against a DTD.</p>
+
+         
+<div class="tablenoborder"><table cellpadding="4" cellspacing="0" summary="" class="table parameterTable" frame="border" border="1" rules="all"><colgroup><col style="width:30%" /><col style="width:10%" /><col style="width:60%" /></colgroup><thead class="thead" style="text-align:left;">
+                  <tr class="row">
+                     <th class="entry cellrowborder" style="vertical-align:top;" id="d28999e2453">
+                        <p class="p">Parameter</p>
+
+                     </th>
+
+                     <th class="entry cellrowborder" style="vertical-align:top;" id="d28999e2459">
+                        <p class="p">Type</p>
+
+                     </th>
+
+                     <th class="entry cellrowborder" style="vertical-align:top;" id="d28999e2465">
+                        <p class="p">Description</p>
+
+                     </th>
+
+                  </tr>
+
+               </thead>
+<tbody class="tbody">
+                  <tr class="row">
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d28999e2453 ">
+                        <p class="p">maximumErrors</p>
+
+                     </td>
+
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d28999e2459 ">
+                        <p class="p">
+                           <a class="xref" href="Number.html#d1e4548">Number</a>
+                        </p>
+
+                     </td>
+
+                     <td class="entry cellrowborder" style="vertical-align:top;" headers="d28999e2465 ">
+                        <p class="p description">The maximum number of validation errors to generate. (Optional)</p>
+
+                        <p class="p"> (default: 250)</p>
+
+                     </td>
+
+                  </tr>
+
+               </tbody>
+</table>
+</div>
+
+      </div>
+
+      <div class="section"><h2 class="title sectiontitle">Object of</h2>
+         
+         <p class="p noMargin">
+            <a class="xref" href="ValidationError.html#d1e210062">ValidationError</a>.element</p>
+
+         <p class="p noMargin">
+            <a class="xref" href="Cell.html#d1e140782">Cell</a>.parent</p>
+
+         <p class="p noMargin">
+            <a class="xref" href="Character.html#d1e154615">Character</a>.parent</p>
+
+         <p class="p noMargin">
+            <a class="xref" href="DTD.html#d1e211986">DTD</a>.parent</p>
+
+         <p class="p noMargin">
+            <a class="xref" href="EPS.html#d1e99298">EPS</a>.parent</p>
+
+         <p class="p noMargin">
+            <a class="xref" href="Image.html#d1e97461">Image</a>.parent</p>
+
+         <p class="p noMargin">
+            <a class="xref" href="InsertionPoint.html#d1e175755">InsertionPoint</a>.parent</p>
+
+         <p class="p noMargin">
+            <a class="xref" href="Line.html#d1e161662">Line</a>.parent</p>
+
+         <p class="p noMargin">
+            <a class="xref" href="PDF.html#d1e101051">PDF</a>.parent</p>
+
+         <p class="p noMargin">
+            <a class="xref" href="PICT.html#d1e104442">PICT</a>.parent</p>
+
+         <p class="p noMargin">
+            <a class="xref" href="PageItem.html#d1e81461">PageItem</a>.parent</p>
+
+         <p class="p noMargin">
+            <a class="xref" href="Paragraph.html#d1e168709">Paragraph</a>.parent</p>
+
+         <p class="p noMargin">
+            <a class="xref" href="Story.html#d1e182288">Story</a>.parent</p>
+
+         <p class="p noMargin">
+            <a class="xref" href="Table.html#d1e142903">Table</a>.parent</p>
+
+         <p class="p noMargin">
+            <a class="xref" href="Text.html#d1e151095">Text</a>.parent</p>
+
+         <p class="p noMargin">
+            <a class="xref" href="TextColumn.html#d1e165185">TextColumn</a>.parent</p>
+
+         <p class="p noMargin">
+            <a class="xref" href="TextStyleRange.html#d1e172232">TextStyleRange</a>.parent</p>
+
+         <p class="p noMargin">
+            <a class="xref" href="WMF.html#d1e102790">WMF</a>.parent</p>
+
+         <p class="p noMargin">
+            <a class="xref" href="Word.html#d1e158139">Word</a>.parent</p>
+
+         <p class="p noMargin">
+            <a class="xref" href="XMLAttribute.html#d1e208190">XMLAttribute</a>.parent</p>
+
+         <p class="p noMargin">
+            <a class="xref" href="XMLComment.html#d1e210428">XMLComment</a>.parent</p>
+
+         <p class="p noMargin">
+            <a class="xref" href="XMLElement.html#d1e207151">XMLElement</a>.parent</p>
+
+         <p class="p noMargin">
+            <a class="xref" href="XMLInstruction.html#d1e210964">XMLInstruction</a>.parent</p>
+
+         <p class="p noMargin">
+            <a class="xref" href="XMLItem.html#d1e211521">XMLItem</a>.parent</p>
+
+      </div>
+
+      <div class="section"><h2 class="title sectiontitle">Return</h2>
+         
+         <p class="p noMargin">
+            <a class="xref" href="XMLElements.html#d1e207811">XMLElements</a>.<a class="xref" href="XMLElements.html#d1e207811__d1e207830">add</a>()</p>
+
+         <p class="p noMargin">
+            <a class="xref" href="XMLElement.html#d1e207151">XMLElement</a>.<a class="xref" href="XMLElement.html#d1e207151__d1e207503">duplicate</a>()</p>
+
+         <p class="p noMargin">
+            <a class="xref" href="XMLElement.html#d1e207151">XMLElement</a>.<a class="xref" href="XMLElement.html#d1e207151__d1e207637">move</a>()</p>
+
+         <p class="p noMargin">
+            <a class="xref" href="XMLElements.html#d1e207811">XMLElements</a>.<a class="xref" href="XMLElements.html#d1e207811__d1e207924">anyItem</a>()</p>
+
+         <p class="p noMargin">
+            <a class="xref" href="XMLElements.html#d1e207811">XMLElements</a>.<a class="xref" href="XMLElements.html#d1e207811__d1e207944">everyItem</a>()</p>
+
+         <p class="p noMargin">
+            <a class="xref" href="XMLElements.html#d1e207811">XMLElements</a>.<a class="xref" href="XMLElements.html#d1e207811__d1e208132">nextItem</a>()</p>
+
+         <p class="p noMargin">
+            <a class="xref" href="XMLElements.html#d1e207811">XMLElements</a>.<a class="xref" href="XMLElements.html#d1e207811__d1e208155">previousItem</a>()</p>
+
+         <p class="p noMargin">
+            <a class="xref" href="XMLElements.html#d1e207811">XMLElements</a>.<a class="xref" href="XMLElements.html#d1e207811__d1e208000">itemByID</a>()</p>
+
+         <p class="p noMargin">
+            <a class="xref" href="XMLElements.html#d1e207811">XMLElements</a>.<a class="xref" href="XMLElements.html#d1e207811__d1e207967">item</a>()</p>
+
+         <p class="p noMargin">
+            <a class="xref" href="XMLElements.html#d1e207811">XMLElements</a>.<a class="xref" href="XMLElements.html#d1e207811__d1e208023">itemByName</a>()</p>
+
+         <p class="p noMargin">
+            <a class="xref" href="XMLElements.html#d1e207811">XMLElements</a>.<a class="xref" href="XMLElements.html#d1e207811__d1e208046">itemByRange</a>()</p>
+
+         <p class="p noMargin">
+            <a class="xref" href="XMLElements.html#d1e207811">XMLElements</a>.<a class="xref" href="XMLElements.html#d1e207811__d1e207956">firstItem</a>()</p>
+
+         <p class="p noMargin">
+            <a class="xref" href="XMLElements.html#d1e207811">XMLElements</a>.<a class="xref" href="XMLElements.html#d1e207811__d1e208111">lastItem</a>()</p>
+
+         <p class="p noMargin">
+            <a class="xref" href="XMLElements.html#d1e207811">XMLElements</a>.<a class="xref" href="XMLElements.html#d1e207811__d1e208121">middleItem</a>()</p>
+
+      </div>
+
+   </div>
+
+</body>
+</html>
